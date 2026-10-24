@@ -30,6 +30,17 @@ $\sin x$는 $\sin 0=\sin 2\pi=0$처럼 서로 다른 입력이 같은 출력을 
 
 **각도 도출.** $y=\arcsin r$은 $r=\sin y$와 $y\in[-\pi/2,\pi/2]$를 동시에 만족하는 유일한 값입니다. $r=1/2$이면 $y=\pi/6=30^\circ$입니다. 같은 방식으로 $\arccos(1/2)=\pi/3=60^\circ$, $\arctan(1)=\pi/4=45^\circ$입니다. $\sin^{-1}r$ 표기는 $\arcsin r$과 같으며, $1/\sin r$을 뜻하지 않습니다.
 
+### 각도와 변화율 구분하기
+
+$\arcsin x$는 비율 $x$에서 **각도**를 구하는 역함수입니다. $1/\sqrt{1-x^2}$는 그 각도 자체가 아니라, 비율을 조금 바꿨을 때 각도가 얼마나 변하는지를 나타내는 **도함수**입니다. 따라서 $y=\arcsin x$일 때 올바른 표기는
+
+\[
+y'=\frac{dy}{dx}=\frac{d}{dx}\arcsin x
+=\frac{1}{\sqrt{1-x^2}}\qquad(-1<x<1)
+\]
+
+입니다. 예를 들어 $x=1/2$에서 역함수값은 $\pi/6$ rad이지만 도함수값은 $2/\sqrt3$ rad/비율입니다. $\arccos x$와 $\arctan x$의 도함수 및 세 공식의 유도는 [역함수의 미분법](../differentiation/inverse-function-derivatives.md#inverse-trig-derivatives)에 이어집니다.
+
 <details>
 <summary>역삼각함수 시뮬레이션: 비율에서 주값 각도 찾기</summary>
 

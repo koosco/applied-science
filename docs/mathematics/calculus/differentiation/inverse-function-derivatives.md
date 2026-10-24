@@ -44,12 +44,59 @@ h(p)=-H\ln\frac{p}{p_0},\qquad
 
 따라서 기압 변화 $\Delta p$가 작을 때 고도 변화는 $\Delta h\approx-H\Delta p/p$입니다. 기압이 낮아지면 추정 고도는 올라갑니다. 이 모델의 $H$와 $p_0$는 환경에 맞게 정해야 하며 날씨와 온도 변화, 센서 오차는 고도 추정 오차로 이어집니다.
 
-## 역삼각함수의 변화율
+<a id="inverse-trig-derivatives"></a>
+## 역삼각함수의 도함수
 
-$y=\arcsin x$에서 $x=\sin y$를 미분하면 $1=\cos y\,dy/dx$입니다. $y\in(-\pi/2,\pi/2)$에서는 $\cos y=\sqrt{1-x^2}>0$이므로
+역삼각함수의 **값**은 주값 범위에서 원래 각도를 찾습니다. 여기서 구하는 **도함수**는 입력 비율이 조금 달라질 때 그 각도가 변하는 정도입니다. 아래 계산은 사인·코사인·탄젠트의 도함수와 연쇄법칙을 사용합니다. $x$는 무차원 비율이고 각도 $y$는 라디안으로 나타냅니다.
+
+### $\arcsin x$
+
+$y=\arcsin x$라 두면 $\sin y=x$, $y\in[-\pi/2,\pi/2]$입니다. 양변을 $x$로 미분하고 $\sin^2y+\cos^2y=1$을 이용하면
 
 \[
-\frac{d}{dx}\arcsin x=\frac1{\sqrt{1-x^2}}\quad(-1<x<1).
+\cos y\,\frac{dy}{dx}=1,
+\qquad
+\cos y=\sqrt{1-\sin^2y}=\sqrt{1-x^2}.
 \]
 
-같은 방법으로 $y=\arccos x$에서는 $1=-\sin y\,dy/dx$, $\sin y=\sqrt{1-x^2}$이고, $y=\arctan x$에서는 $1=(1+\tan^2y)dy/dx$입니다. 따라서 $(\arccos x)'=-1/\sqrt{1-x^2}$ ($-1<x<1$), $(\arctan x)'=1/(1+x^2)$ ($x\in\mathbb R$)입니다. 사인·코사인의 끝점 부근에서 분모가 0에 가까워지는 것은 **비율의 작은 오차가 큰 각도 오차로 이어질 수 있음**을 보여줍니다.
+이 범위 안쪽에서는 $\cos y>0$이므로
+
+\[
+\boxed{\frac{d}{dx}\arcsin x=\frac{1}{\sqrt{1-x^2}}}
+\qquad(-1<x<1).
+\]
+
+### $\arccos x$
+
+$y=\arccos x$라 두면 $\cos y=x$, $y\in[0,\pi]$입니다. 같은 방법으로
+
+\[
+-\sin y\,\frac{dy}{dx}=1,
+\qquad
+\sin y=\sqrt{1-\cos^2y}=\sqrt{1-x^2}.
+\]
+
+범위 안쪽에서는 $\sin y>0$이므로
+
+\[
+\boxed{\frac{d}{dx}\arccos x=-\frac{1}{\sqrt{1-x^2}}}
+\qquad(-1<x<1).
+\]
+
+### $\arctan x$
+
+$y=\arctan x$라 두면 $\tan y=x$, $y\in(-\pi/2,\pi/2)$입니다. 탄젠트를 미분하고 $\sec^2y=1+\tan^2y$를 대입하면
+
+\[
+\sec^2y\,\frac{dy}{dx}=1,
+\qquad
+\sec^2y=1+\tan^2y=1+x^2.
+\]
+
+따라서 모든 실수 $x$에서
+
+\[
+\boxed{\frac{d}{dx}\arctan x=\frac{1}{1+x^2}}.
+\]
+
+예를 들어 입력 비율 $x=1/2$에서 $\arcsin x$와 $\arccos x$의 도함수는 각각 $2/\sqrt3$, $-2/\sqrt3$이고, $x=1$에서 $\arctan x$의 도함수는 $1/2$입니다. $\arcsin$과 $\arccos$는 $x=\pm1$에서 함수값은 정의되지만 유한한 도함수는 없습니다. 센서 비율이 이 끝점에 가까우면 **작은 비율 오차가 큰 각도 오차**로 이어질 수 있습니다.
