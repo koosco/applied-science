@@ -6,11 +6,20 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
 
 jobs:
   publish:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -20,4 +29,10 @@ jobs:
       - run: python -m unittest discover -s tests
       - run: python -m marimo check simulations/projectile_motion.py
       - run: python -m marimo export html-wasm simulations/projectile_motion.py -o docs/simulations/projectile --mode run --no-show-code
-      - run: python -m mkdocs gh-deploy --strict --force
+      - run: python -m mkdocs build --strict
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -353,7 +353,7 @@ python -m mkdocs serve
 
 ### GitHub Pages
 
-`main` 브랜치에 푸시하면 [배포 워크플로](.github/workflows/docs.yml)가 테스트, 시뮬레이터 내보내기, 사이트 생성을 거쳐 `gh-pages` 브랜치에 게시합니다. 저장소의 **Settings → Pages**에서 게시 소스를 `gh-pages` 브랜치로 설정하면 `https://koosco.github.io/applied-science/`에서 볼 수 있습니다.
+`main` 브랜치에 푸시하면 [배포 워크플로](.github/workflows/docs.yml)가 테스트, 시뮬레이터 내보내기, 사이트 생성을 거쳐 GitHub Pages에 게시합니다. Pages 게시 소스는 **GitHub Actions**이며, 사이트 주소는 `https://koosco.github.io/applied-science/`입니다.
 
 ---
 
