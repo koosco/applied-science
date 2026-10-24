@@ -15,9 +15,16 @@ def _():
 
 @app.cell
 def _(mo):
+    reset = mo.ui.button(label="초기화")
+    return (reset,)
+
+
+@app.cell
+def _(mo, reset):
+    reset.value
     speed = mo.ui.slider(5, 40, value=20, step=1, label="초기 속력 (m/s)", show_value=True)
     angle = mo.ui.slider(5, 85, value=45, step=1, label="발사 각도 (°)", show_value=True)
-    mo.vstack([speed, angle])
+    mo.vstack([speed, angle, reset])
     return speed, angle
 
 
@@ -59,18 +66,18 @@ def _(angle, mo, speed):
         x = (x1 + x2) / 2
         y = max(0, (y1 + y2) / 2)
         label = f"x={x:.2f} m, y={y:.2f} m"
-        tooltip_x = min((sx1 + sx2) / 2 + 10, 510)
-        tooltip_y = max((sy1 + sy2) / 2 - 38, 20)
+        tooltip_x = min((sx1 + sx2) / 2 + 12, 372)
+        tooltip_y = max((sy1 + sy2) / 2 - 62, 12)
         hover_areas.append(
             f'<g class="sample">'
             f'<line x1="{sx1:.1f}" y1="{sy1:.1f}" x2="{sx2:.1f}" y2="{sy2:.1f}" '
             f'stroke="transparent" stroke-width="18" pointer-events="stroke" cursor="crosshair">'
             f'<title>{label}</title></line>'
             f'<g class="sample-tooltip">'
-            f'<rect x="{tooltip_x:.1f}" y="{tooltip_y:.1f}" width="180" height="28" '
-            f'rx="5" fill="#0f172a" />'
-            f'<text x="{tooltip_x + 8:.1f}" y="{tooltip_y + 19:.1f}" '
-            f'fill="white" font-size="13">{label}</text>'
+            f'<rect x="{tooltip_x:.1f}" y="{tooltip_y:.1f}" width="320" height="52" '
+            f'rx="8" fill="#0f172a" />'
+            f'<text x="{tooltip_x + 14:.1f}" y="{tooltip_y + 34:.1f}" '
+            f'fill="white" font-size="24">{label}</text>'
             f'</g></g>'
         )
 

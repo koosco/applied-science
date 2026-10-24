@@ -38,11 +38,11 @@ H = \frac{v_0^2\sin^2\theta}{2g}
 ## 시뮬레이션
 
 초기 속력과 각도를 바꿔 궤적, 비행 시간, 최고 높이, 수평 도달 거리를 비교해 보세요.
-축은 고정된 거리·높이 범위를 사용합니다. 회색 점선은 20 m/s, 45°의 기준 궤적이고, 파란 곡선은 현재 설정의 궤적입니다. 파란 곡선 위에 마우스를 올리면 해당 지점의 x, y 좌표를 볼 수 있습니다.
+축은 고정된 거리·높이 범위를 사용합니다. 회색 점선은 20 m/s, 45°의 기준 궤적이고, 파란 곡선은 현재 설정의 궤적입니다. 파란 곡선 위에 마우스를 올리면 해당 지점의 x, y 좌표를 볼 수 있습니다. 초기화 버튼은 처음 입력값과 결과로 되돌립니다.
 
-<iframe src="../../simulations/projectile/index.html?v=compare-2" title="포물선 운동 시뮬레이터" width="100%" height="640" loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
+<iframe src="../../simulations/projectile/index.html?v=reset-3" title="포물선 운동 시뮬레이터" width="100%" height="640" loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
 
-<a href="../../simulations/projectile/index.html?v=compare-2" target="_blank" rel="noopener">시뮬레이터 새 창에서 열기</a> · [Python 원본 코드](https://github.com/koosco/applied-science/blob/main/simulations/projectile_motion.py)
+<a href="../../simulations/projectile/index.html?v=reset-3" target="_blank" rel="noopener">시뮬레이터 새 창에서 열기</a> · [Python 원본 코드](https://github.com/koosco/applied-science/blob/main/simulations/projectile_motion.py)
 
 ## 확인할 점
 
