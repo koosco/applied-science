@@ -11,7 +11,20 @@ nav:
   - 시작: index.md
   - 동작 확인: test.md
   - 수학:
-      - 응용 미적분: mathematics/applied-calculus.md
+      - 미적분:
+          - 학습 목차: mathematics/calculus/index.md
+          - 함수:
+              - 합성함수: mathematics/calculus/functions/composition.md
+              - 단사·전사와 역함수: mathematics/calculus/functions/inverse-functions.md
+              - 함수의 극한과 연속: mathematics/calculus/functions/limits-and-continuity.md
+              - 주기 함수와 신호 시스템: mathematics/calculus/functions/periodic-signals.md
+          - 미분법:
+              - 미분계수와 도함수: mathematics/calculus/differentiation/derivatives-and-tangents.md
+              - 롤의 정리: mathematics/calculus/differentiation/theorems/rolle.md
+              - 코시의 평균값 정리: mathematics/calculus/differentiation/theorems/cauchy-mean-value.md
+              - 로피탈의 정리: mathematics/calculus/differentiation/theorems/lhopital.md
+              - 역함수의 미분법: mathematics/calculus/differentiation/inverse-function-derivatives.md
+              - 음함수의 미분법: mathematics/calculus/differentiation/implicit-differentiation.md
   - 역학:
       - 포물선 운동: mechanics/projectile-motion.md
 exclude_docs: |
