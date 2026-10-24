@@ -1,0 +1,23 @@
+site_name: Applied Science
+site_url: https://koosco.github.io/applied-science/
+site_description: 수학과 공학의 원리를 배우고 시뮬레이션으로 검증하는 학습 노트
+theme:
+  name: material
+  language: ko
+  features:
+    - navigation.sections
+    - content.code.copy
+nav:
+  - 시작: index.md
+  - 역학:
+      - 포물선 운동: mechanics/projectile-motion.md
+exclude_docs: |
+  /convention/
+  /learning-scope.md
+  /simulations/**/CLAUDE.md
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js

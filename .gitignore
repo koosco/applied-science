@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+__marimo__/
+*.pyc
+site/
+docs/simulations/
