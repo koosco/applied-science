@@ -18,14 +18,16 @@ Applied Science는 물리 시스템의 동작 원리를 이해하고,
 
 ## 2. 학습 목표
 
-- 수학적 개념을 물리 현상과 연결하여 이해합니다.
-- 힘, 운동, 에너지 및 회전 운동의 원리를 학습합니다.
-- 전기와 자기 현상을 이해하고 회로 및 구동 시스템에 적용합니다.
-- 센서의 측정 원리와 데이터 처리 방법을 학습합니다.
-- 동적 시스템을 수학적으로 모델링하고 해석합니다.
-- 피드백 제어와 상태 추정의 원리를 이해합니다.
-- 프로그래밍과 시뮬레이션을 통해 이론을 검증합니다.
-- 학습한 알고리즘과 구현을 재사용 가능한 형태로 정리합니다.
+| 학습 목표 | 관련 폴더 |
+| --- | --- |
+| 수학적 개념을 물리 현상과 연결하여 이해합니다. | [수학](fundamentals/mathematics/) |
+| 힘, 운동, 에너지 및 회전 운동의 원리를 학습합니다. | [역학](fundamentals/mechanics/) |
+| 전기와 자기 현상을 이해하고 회로 및 구동 시스템에 적용합니다. | [전자기학](fundamentals/electromagnetism/), [회로 및 전력 시스템](fundamentals/circuits/) |
+| 센서의 측정 원리와 데이터 처리 방법을 학습합니다. | [센서 및 상태 추정](fundamentals/sensors-and-estimation/) |
+| 동적 시스템을 수학적으로 모델링하고 해석합니다. | [신호 및 제어](fundamentals/signals-and-control/) |
+| 피드백 제어와 상태 추정의 원리를 이해합니다. | [신호 및 제어](fundamentals/signals-and-control/), [센서 및 상태 추정](fundamentals/sensors-and-estimation/) |
+| 프로그래밍과 시뮬레이션을 통해 이론을 검증합니다. | [시뮬레이터](simulations/) |
+| 학습한 알고리즘과 구현을 재사용 가능한 형태로 정리합니다. | [재사용 모듈](modules/) |
 
 ## 3. 학습 분야
 
@@ -33,143 +35,82 @@ Applied Science는 물리 시스템의 동작 원리를 이해하고,
 
 물리 현상을 수학적으로 표현하고 시스템의 동작을 분석하기 위한 기초를 학습합니다.
 
-- 미적분학
-  - 극한과 연속
-  - 미분과 적분
-  - 다변수 미적분
-  - 편미분과 그래디언트
-  - 테일러 전개 및 선형 근사
-- 선형대수학
-  - 벡터와 행렬
-  - 좌표계와 좌표 변환
-  - 고유값과 고유벡터
-- 미분방정식
-  - 일계 및 이계 미분방정식
-  - 연립 미분방정식
-  - 동적 시스템의 수학적 표현
-- 수치해석
-  - 수치 미분과 적분
-  - 수치적 미분방정식 풀이
-  - 계산 오차와 수치적 안정성
+| 학습 항목 | 세부 주제 |
+| --- | --- |
+| [미적분학](fundamentals/mathematics/calculus/) | 극한과 연속, 미분과 적분, 다변수 미적분, 편미분과 그래디언트, 테일러 전개 및 선형 근사 |
+| [선형대수학](fundamentals/mathematics/linear-algebra/) | 벡터와 행렬, 좌표계와 좌표 변환, 고유값과 고유벡터 |
+| [미분방정식](fundamentals/mathematics/differential-equations/) | 일계 및 이계 미분방정식, 연립 미분방정식, 동적 시스템의 수학적 표현 |
+| [수치해석](fundamentals/mathematics/numerical-methods/) | 수치 미분과 적분, 수치적 미분방정식 풀이, 계산 오차와 수치적 안정성 |
 
 ### 3.2 역학 (Mechanics)
 
 물체의 운동과 힘 사이의 관계를 이해합니다.
 
-- 운동학 (Kinematics)
-  - 위치, 속도, 가속도
-  - 직선 운동과 곡선 운동
-  - 각도, 각속도, 각가속도
-- 동역학 (Dynamics)
-  - 뉴턴의 운동 법칙
-  - 힘과 운동량
-  - 일과 에너지
-  - 토크와 회전 운동
-- 강체역학 (Rigid Body Mechanics)
-  - 관성모멘트
-  - 질량중심
-  - 강체의 병진 및 회전 운동
-  - 3차원 자세 표현
-- 유체 및 공기역학
-  - 유체의 기본 성질
-  - 압력과 유동
-  - 양력과 항력
-  - 추력과 운동의 관계
+| 학습 항목 | 세부 주제 |
+| --- | --- |
+| [운동학 (Kinematics)](fundamentals/mechanics/kinematics/) | 위치·속도·가속도, 직선 운동과 곡선 운동, 각도·각속도·각가속도 |
+| [동역학 (Dynamics)](fundamentals/mechanics/dynamics/) | 뉴턴의 운동 법칙, 힘과 운동량, 일과 에너지, 토크와 회전 운동 |
+| [강체역학 (Rigid Body Mechanics)](fundamentals/mechanics/rigid-body-mechanics/) | 관성모멘트, 질량중심, 강체의 병진 및 회전 운동, 3차원 자세 표현 |
+| [유체 및 공기역학](fundamentals/mechanics/fluid-and-aerodynamics/) | 유체의 기본 성질, 압력과 유동, 양력과 항력, 추력과 운동의 관계 |
 
 ### 3.3 전자기학 (Electromagnetism)
 
 전기 및 자기 현상의 기본 원리와 전자기적 에너지 변환을 학습합니다.
 
-- 전하와 전기장
-- 전위와 전압
-- 전류와 전류밀도
-- 자기장과 자기력
-- 전자기 유도
-- 인덕턴스
-- 전자기력과 회전 운동의 관계
+| 학습 항목 |
+| --- |
+| [전하와 전기장](fundamentals/electromagnetism/electric-charge-and-field/) |
+| [전위와 전압](fundamentals/electromagnetism/electric-potential-and-voltage/) |
+| [전류와 전류밀도](fundamentals/electromagnetism/current-and-current-density/) |
+| [자기장과 자기력](fundamentals/electromagnetism/magnetic-field-and-force/) |
+| [전자기 유도](fundamentals/electromagnetism/electromagnetic-induction/) |
+| [인덕턴스](fundamentals/electromagnetism/inductance/) |
+| [전자기력과 회전 운동의 관계](fundamentals/electromagnetism/electromagnetic-force-and-rotation/) |
 
 ### 3.4 회로 및 전력 시스템 (Circuits and Power Systems)
 
 전기 에너지의 전달, 변환 및 제어 원리를 학습합니다.
 
-- 회로이론
-  - 옴의 법칙
-  - 키르히호프 법칙
-  - 저항, 커패시터, 인덕터
-  - RC, RL, RLC 회로
-  - 과도응답 및 정상상태
-- 전력 시스템
-  - 전력과 에너지
-  - 전력 손실과 효율
-  - 배터리의 전기적 특성
-  - 전압 및 전류 변환
-- 전기 구동
-  - 전동기의 동작 원리
-  - BLDC 모터
-  - PWM
-  - 모터 드라이버 및 ESC
-  - 속도와 토크 제어
+| 학습 항목 | 세부 주제 |
+| --- | --- |
+| [회로이론](fundamentals/circuits/circuit-theory/) | 옴의 법칙, 키르히호프 법칙, 저항·커패시터·인덕터, RC·RL·RLC 회로, 과도응답 및 정상상태 |
+| [전력 시스템](fundamentals/circuits/power-systems/) | 전력과 에너지, 전력 손실과 효율, 배터리의 전기적 특성, 전압 및 전류 변환 |
+| [전기 구동](fundamentals/circuits/electric-drives/) | 전동기의 동작 원리, BLDC 모터, PWM, 모터 드라이버 및 ESC, 속도와 토크 제어 |
 
 ### 3.5 신호 및 제어 (Signals and Control)
 
 시간에 따라 변화하는 신호와 동적 시스템을 분석하고 제어하는 방법을 학습합니다.
 
-- 신호 및 시스템
-  - 연속시간 및 이산시간 신호
-  - 샘플링
-  - 주파수와 푸리에 해석
-  - 필터링
-- 시스템 모델링
-  - 전달함수
-  - 상태공간 모델
-  - 선형화
-  - 시스템 응답
-- 제어공학
-  - 개루프 및 폐루프 제어
-  - 피드백 제어
-  - PID 제어
-  - 안정성
-  - 응답 특성 및 제어기 설계
+| 학습 항목 | 세부 주제 |
+| --- | --- |
+| [신호 및 시스템](fundamentals/signals-and-control/signals-and-systems/) | 연속시간 및 이산시간 신호, 샘플링, 주파수와 푸리에 해석, 필터링 |
+| [시스템 모델링](fundamentals/signals-and-control/system-modeling/) | 전달함수, 상태공간 모델, 선형화, 시스템 응답 |
+| [제어공학](fundamentals/signals-and-control/control-engineering/) | 개루프 및 폐루프 제어, 피드백 제어, PID 제어, 안정성, 응답 특성 및 제어기 설계 |
 
 ### 3.6 센서 및 상태 추정 (Sensors and Estimation)
 
 물리량을 측정하고 불완전한 측정값으로부터 시스템의 상태를 추정하는 방법을 학습합니다.
 
-- 센서 및 계측
-  - 가속도계
-  - 자이로스코프
-  - 자기계
-  - 기압 센서
-  - 위치 및 거리 측정
-  - GNSS
-- 데이터 처리
-  - 측정 오차와 노이즈
-  - 센서 보정
-  - 디지털 필터링
-  - 샘플링과 시간 동기화
-- 상태 추정
-  - 확률 및 통계 기초
-  - 센서 융합
-  - 칼만 필터
-  - 위치, 속도 및 자세 추정
+| 학습 항목 | 세부 주제 |
+| --- | --- |
+| [센서 및 계측](fundamentals/sensors-and-estimation/sensors-and-measurement/) | 가속도계, 자이로스코프, 자기계, 기압 센서, 위치 및 거리 측정, GNSS |
+| [데이터 처리](fundamentals/sensors-and-estimation/data-processing/) | 측정 오차와 노이즈, 센서 보정, 디지털 필터링, 샘플링과 시간 동기화 |
+| [상태 추정](fundamentals/sensors-and-estimation/state-estimation/) | 확률 및 통계 기초, 센서 융합, 칼만 필터, 위치·속도·자세 추정 |
 
 ### 3.7 임베디드 시스템 (Embedded Systems)
 
 하드웨어와 소프트웨어가 상호작용하는 시스템의 구조를 학습합니다.
 
-- 마이크로컨트롤러
-- 메모리와 주변장치
-- 인터럽트와 타이머
-- 실시간 처리
-- 하드웨어 인터페이스
-  - GPIO
-  - UART
-  - I2C
-  - SPI
-  - CAN
-- 장치 간 통신
-- 데이터 수집 및 처리
-- 하드웨어와 소프트웨어 통합
+| 학습 항목 |
+| --- |
+| [마이크로컨트롤러](fundamentals/embedded-systems/microcontrollers/) |
+| [메모리와 주변장치](fundamentals/embedded-systems/memory-and-peripherals/) |
+| [인터럽트와 타이머](fundamentals/embedded-systems/interrupts-and-timers/) |
+| [실시간 처리](fundamentals/embedded-systems/real-time-processing/) |
+| [하드웨어 인터페이스](fundamentals/embedded-systems/hardware-interfaces/) — GPIO, UART, I2C, SPI, CAN |
+| [장치 간 통신](fundamentals/embedded-systems/device-communication/) |
+| [데이터 수집 및 처리](fundamentals/embedded-systems/data-acquisition-and-processing/) |
+| [하드웨어와 소프트웨어 통합](fundamentals/embedded-systems/hardware-software-integration/) |
 
 학습 범위는 실제 필요에 따라 확장하거나 세분화합니다.
 관련성이 낮은 주제는 단순한 지식 확장을 목적으로 추가하지 않습니다.
@@ -225,8 +166,7 @@ applied-science/
 └── README.md
 ```
 
-위 구조는 확장 가능한 예시입니다.
-실제 디렉터리는 학습과 구현이 진행되는 시점에 생성합니다.
+위 구조는 주요 경로를 보여줍니다. 표에 연결된 빈 폴더는 `.gitkeep`으로 보존하며, 나머지 예시 디렉터리는 학습과 구현이 진행될 때 생성합니다.
 
 에이전트의 공통 원칙과 작업별 지침 경로는 [AGENTS.md](AGENTS.md)에 있습니다.
 세부 규칙은 해당 작업에 필요한 `docs/` 파일만 참고합니다.

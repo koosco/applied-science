@@ -38,6 +38,7 @@ H = \frac{v_0^2\sin^2\theta}{2g}
 ## 시뮬레이션
 
 초기 속력과 각도를 바꿔 궤적, 비행 시간, 최고 높이, 수평 도달 거리를 비교해 보세요.
+축은 고정된 거리·높이 범위를 사용합니다. 곡선 위에 마우스를 올리면 해당 지점의 x, y 좌표를 볼 수 있습니다.
 
 <iframe src="../../simulations/projectile/index.html" title="포물선 운동 시뮬레이터" width="100%" height="640" loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
 
