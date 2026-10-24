@@ -332,6 +332,8 @@ Python을 기본적인 수치 계산 및 실험 언어로 사용합니다.
 
 [포물선 운동 문서](docs/mechanics/projectile-motion.md)는 수식 설명 아래에서 Python 시뮬레이터를 실행할 수 있습니다. 문서의 원본은 Markdown이고, 시뮬레이터의 원본은 [`simulations/`](simulations/)의 Python 파일입니다. 사이트를 만들 때 marimo가 시뮬레이터를 브라우저용 HTML로 내보내고 MkDocs가 문서와 함께 제공합니다.
 
+[시뮬레이터 동작 확인 페이지](docs/test.md)에서는 슬라이더와 계산값을 바로 점검할 수 있습니다.
+
 ### 로컬 실행
 
 Python 3.12를 기준으로 저장소 루트에서 실행합니다.
