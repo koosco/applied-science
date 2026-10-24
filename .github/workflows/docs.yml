@@ -29,13 +29,14 @@ jobs:
       - run: python -m unittest discover -s tests
       - run: python -m marimo check simulations/projectile_motion.py
       - run: python -m marimo export html-wasm simulations/projectile_motion.py -o docs/simulations/projectile --mode run --no-show-code
-      - run: python -m marimo check simulations/inverse_trig.py simulations/instantaneous_velocity.py simulations/inverse_thrust.py simulations/implicit_circle.py simulations/periodic_signal.py simulations/rolle.py
+      - run: python -m marimo check simulations/inverse_trig.py simulations/instantaneous_velocity.py simulations/inverse_thrust.py simulations/implicit_circle.py simulations/periodic_signal.py simulations/rolle.py simulations/trajectory_derivatives.py
       - run: python -m marimo export html-wasm simulations/inverse_trig.py -o docs/simulations/inverse-trig --mode run --no-show-code
       - run: python -m marimo export html-wasm simulations/instantaneous_velocity.py -o docs/simulations/instantaneous-velocity --mode run --no-show-code
       - run: python -m marimo export html-wasm simulations/inverse_thrust.py -o docs/simulations/inverse-thrust --mode run --no-show-code
       - run: python -m marimo export html-wasm simulations/implicit_circle.py -o docs/simulations/implicit-circle --mode run --no-show-code
       - run: python -m marimo export html-wasm simulations/periodic_signal.py -o docs/simulations/periodic-signal --mode run --no-show-code
       - run: python -m marimo export html-wasm simulations/rolle.py -o docs/simulations/rolle --mode run --no-show-code
+      - run: python -m marimo export html-wasm simulations/trajectory_derivatives.py -o docs/simulations/trajectory-derivatives --mode run --no-show-code
       - run: python -m mkdocs build --strict
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4

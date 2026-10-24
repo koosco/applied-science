@@ -16,7 +16,7 @@ F=(g\circ f)(v)=\frac95(100v-50)+32=180v-58.
 
 $v=0.75$ (전압 $0.75\,\mathrm V$)에서는 $T=25\,{}^\circ\mathrm C$, $F=77\,{}^\circ\mathrm F$입니다. 계수 100의 단위는 °C/V이며, 실제 센서의 보정식은 장치에 따라 달라집니다.
 
-합성함수의 변화율은 연쇄법칙으로 계산합니다. $f$와 $g$가 해당 지점에서 미분 가능하면 $(g\circ f)'(x)=g'(f(x))f'(x)$입니다. 이 예에서는 $180\,{}^\circ\mathrm F/\mathrm V$가 됩니다. 연쇄법칙은 [역함수의 미분법](../differentiation/inverse-function-derivatives.md)에서도 사용합니다.
+합성함수의 변화율은 [연쇄법칙](../differentiation/basic-rules.md#chain-rule)으로 계산합니다. $f$와 $g$가 해당 지점에서 미분 가능하면 $(g\circ f)'(x)=g'(f(x))f'(x)$입니다. 이 예에서는 $180\,{}^\circ\mathrm F/\mathrm V$가 됩니다. 연쇄법칙은 [역함수의 미분법](../differentiation/inverse-function-derivatives.md)에서도 사용합니다.
 
 ## 문제 예시: 드론 가속도 센서의 변위 환산
 

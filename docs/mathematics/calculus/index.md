@@ -16,10 +16,13 @@
 | 순서 | 문서 | 다루는 질문 |
 | --- | --- | --- |
 | 1 | [미분계수와 도함수](differentiation/derivatives-and-tangents.md) | 순간속도와 접선·법선은 어떻게 구하는가? |
-| 2 | [롤의 정리](differentiation/theorems/rolle.md) | 같은 출력값 사이에 변화율이 0인 순간이 있는가? |
-| 3 | [코시의 평균값 정리](differentiation/theorems/cauchy-mean-value.md) | 두 출력의 전체 변화량 비율과 순간 변화율 비율은 어떻게 연결되는가? |
-| 4 | [로피탈의 정리](differentiation/theorems/lhopital.md) | $0/0$형과 $\infty/\infty$형 극한을 언제 도함수로 계산할 수 있는가? |
-| 5 | [역함수의 미분법](differentiation/inverse-function-derivatives.md) | 출력 목표의 변화와 $\arcsin$, $\arccos$, $\arctan$의 도함수는 어떻게 구하는가? |
-| 6 | [음함수의 미분법](differentiation/implicit-differentiation.md) | 두 변수가 하나의 관계식에 묶여 있을 때 기울기는 무엇인가? |
+| 2 | [기본 미분법](differentiation/basic-rules.md) | 여러 함수가 결합된 운동·센서 모델의 변화율을 어떻게 계산하는가? |
+| 3 | [비행 궤적의 고계도함수](differentiation/trajectory-derivatives.md) | 위치·속도·가속도·저크는 어떻게 이어지고 이동 시간에 따라 달라지는가? |
+| 4 | [도함수로 극값 찾기](differentiation/extrema.md) | 허용 범위에서 가장 큰 값이나 작은 값을 어떻게 찾는가? |
+| 5 | [롤의 정리](differentiation/theorems/rolle.md) | 같은 출력값 사이에 변화율이 0인 순간이 있는가? |
+| 6 | [코시의 평균값 정리](differentiation/theorems/cauchy-mean-value.md) | 두 출력의 전체 변화량 비율과 순간 변화율 비율은 어떻게 연결되는가? |
+| 7 | [로피탈의 정리](differentiation/theorems/lhopital.md) | $0/0$형과 $\infty/\infty$형 극한을 언제 도함수로 계산할 수 있는가? |
+| 8 | [역함수의 미분법](differentiation/inverse-function-derivatives.md) | 출력 목표의 변화와 $\arcsin$, $\arccos$, $\arctan$의 도함수는 어떻게 구하는가? |
+| 9 | [음함수의 미분법](differentiation/implicit-differentiation.md) | 두 변수가 하나의 관계식에 묶여 있을 때 기울기는 무엇인가? |
 
-표의 순서대로 읽으면 **극한·연속 → 도함수 → 평균값 정리 → 도함수를 이용한 응용**으로 이어집니다. 필요한 주제만 골라 읽어도 각 문서에서 가정과 변수를 다시 확인할 수 있습니다.
+표의 순서대로 읽으면 **극한·연속 → 도함수와 계산 규칙 → 궤적과 극값 → 정리와 응용**으로 이어집니다. 필요한 주제만 골라 읽어도 각 문서에서 가정과 변수를 다시 확인할 수 있습니다.

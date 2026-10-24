@@ -157,6 +157,9 @@ applied-science/
 │   │       │   └── periodic-signals.md
 │   │       └── differentiation/
 │   │           ├── derivatives-and-tangents.md
+│   │           ├── basic-rules.md
+│   │           ├── trajectory-derivatives.md
+│   │           ├── extrema.md
 │   │           ├── inverse-function-derivatives.md
 │   │           ├── implicit-differentiation.md
 │   │           └── theorems/
@@ -181,6 +184,8 @@ applied-science/
 │   ├── implicit_circle.py
 │   ├── periodic_signal.py
 │   ├── rolle.py
+│   ├── trajectory_derivatives.py
+│   ├── trajectory_model.py
 │   ├── projectile.py
 │   └── projectile_motion.py
 ├── tests/
@@ -312,6 +317,7 @@ python -m marimo export html-wasm simulations/inverse_thrust.py -o docs/simulati
 python -m marimo export html-wasm simulations/implicit_circle.py -o docs/simulations/implicit-circle --mode run --no-show-code
 python -m marimo export html-wasm simulations/periodic_signal.py -o docs/simulations/periodic-signal --mode run --no-show-code
 python -m marimo export html-wasm simulations/rolle.py -o docs/simulations/rolle --mode run --no-show-code
+python -m marimo export html-wasm simulations/trajectory_derivatives.py -o docs/simulations/trajectory-derivatives --mode run --no-show-code
 python -m mkdocs serve
 ```
 

@@ -19,6 +19,9 @@ nav:
               - 주기 함수와 신호 시스템: mathematics/calculus/functions/periodic-signals.md
           - 미분법:
               - 미분계수와 도함수: mathematics/calculus/differentiation/derivatives-and-tangents.md
+              - 기본 미분법: mathematics/calculus/differentiation/basic-rules.md
+              - 비행 궤적의 고계도함수: mathematics/calculus/differentiation/trajectory-derivatives.md
+              - 도함수로 극값 찾기: mathematics/calculus/differentiation/extrema.md
               - 롤의 정리: mathematics/calculus/differentiation/theorems/rolle.md
               - 코시의 평균값 정리: mathematics/calculus/differentiation/theorems/cauchy-mean-value.md
               - 로피탈의 정리: mathematics/calculus/differentiation/theorems/lhopital.md
