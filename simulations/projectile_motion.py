@@ -33,6 +33,10 @@ def _(angle, mo, speed):
 
     screen_points = [to_screen(x, y) for x, y in points]
     path = " ".join(f"{x:.1f},{y:.1f}" for x, y in screen_points)
+    reference_points, _, _, _ = trajectory(20, 45)
+    reference_path = " ".join(
+        f"{x:.1f},{y:.1f}" for x, y in (to_screen(x, y) for x, y in reference_points)
+    )
 
     ticks = []
     for value in (0, 50, 100, 150):
@@ -80,8 +84,15 @@ def _(angle, mo, speed):
       {''.join(ticks)}
       <line x1="52" y1="330" x2="652" y2="330" stroke="#64748b" stroke-width="2" />
       <line x1="52" y1="330" x2="52" y2="30" stroke="#64748b" stroke-width="2" />
+      <polyline points="{reference_path}" fill="none" stroke="#94a3b8"
+                stroke-width="3" stroke-dasharray="6 5" />
       <polyline points="{path}" fill="none" stroke="#2563eb" stroke-width="4" />
       {''.join(hover_areas)}
+      <line x1="320" y1="18" x2="344" y2="18" stroke="#94a3b8"
+            stroke-width="3" stroke-dasharray="6 5" />
+      <text x="350" y="22" font-size="12">기준: 20 m/s, 45°</text>
+      <line x1="512" y1="18" x2="536" y2="18" stroke="#2563eb" stroke-width="4" />
+      <text x="542" y="22" font-size="12">현재 설정</text>
       <text x="650" y="377" font-size="14" text-anchor="end">수평 거리 x (m)</text>
       <text x="16" y="25" font-size="14">높이 y (m)</text>
     </svg>

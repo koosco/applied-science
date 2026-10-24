@@ -1,10 +1,10 @@
 # 시뮬레이터 동작 확인
 
-아래 시뮬레이터에서 초기 속력과 발사 각도를 바꾸면 궤적과 계산값이 함께 갱신됩니다. [포물선 운동 문서](mechanics/projectile-motion.md)에서 모델의 가정과 수식을 확인할 수 있습니다.
+아래 시뮬레이터에서 초기 속력과 발사 각도를 바꾸면 파란 궤적과 계산값이 함께 갱신됩니다. 회색 점선은 처음 설정인 20 m/s, 45°의 기준 궤적입니다. [포물선 운동 문서](mechanics/projectile-motion.md)에서 모델의 가정과 수식을 확인할 수 있습니다.
 
-<iframe src="../simulations/projectile/index.html" title="포물선 운동 시뮬레이터 동작 확인" width="100%" height="640" loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
+<iframe src="../simulations/projectile/index.html?v=compare-2" title="포물선 운동 시뮬레이터 동작 확인" width="100%" height="640" loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
 
-<a href="../simulations/projectile/index.html" target="_blank" rel="noopener">시뮬레이터 새 창에서 열기</a>
+<a href="../simulations/projectile/index.html?v=compare-2" target="_blank" rel="noopener">시뮬레이터 새 창에서 열기</a>
 
 ## 확인 방법
 
