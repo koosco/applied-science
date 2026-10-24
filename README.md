@@ -37,7 +37,7 @@ Applied Science는 물리 시스템의 동작 원리를 이해하고,
 
 | 학습 항목 | 세부 주제 |
 | --- | --- |
-| [미적분학](fundamentals/mathematics/calculus/) | 극한과 연속, 미분과 적분, 다변수 미적분, 편미분과 그래디언트, 테일러 전개 및 선형 근사 |
+| [미적분학](docs/mathematics/) | [응용 미적분: 함수에서 변화율까지](docs/mathematics/applied-calculus.md) · 향후 학습: 적분, 다변수 미적분, 편미분과 그래디언트, 테일러 전개 및 선형 근사 |
 | [선형대수학](fundamentals/mathematics/linear-algebra/) | 벡터와 행렬, 좌표계와 좌표 변환, 고유값과 고유벡터 |
 | [미분방정식](fundamentals/mathematics/differential-equations/) | 일계 및 이계 미분방정식, 연립 미분방정식, 동적 시스템의 수학적 표현 |
 | [수치해석](fundamentals/mathematics/numerical-methods/) | 수치 미분과 적분, 수치적 미분방정식 풀이, 계산 오차와 수치적 안정성 |
@@ -146,6 +146,8 @@ applied-science/
 │
 ├── docs/
 │   ├── index.md
+│   ├── mathematics/
+│   │   └── applied-calculus.md
 │   ├── mechanics/
 │   │   └── projectile-motion.md
 │   ├── javascripts/
@@ -157,6 +159,12 @@ applied-science/
 │       └── repository.md
 │
 ├── simulations/
+│   ├── calculus_plot.py
+│   ├── inverse_trig.py
+│   ├── instantaneous_velocity.py
+│   ├── inverse_thrust.py
+│   ├── implicit_circle.py
+│   ├── periodic_signal.py
 │   ├── projectile.py
 │   └── projectile_motion.py
 ├── tests/
@@ -270,7 +278,7 @@ Python을 기본적인 수치 계산 및 실험 언어로 사용합니다.
 
 ## 9. 문서 사이트와 시뮬레이터
 
-[포물선 운동 문서](docs/mechanics/projectile-motion.md)는 수식 설명 아래에서 Python 시뮬레이터를 실행할 수 있습니다. 문서의 원본은 Markdown이고, 시뮬레이터의 원본은 [`simulations/`](simulations/)의 Python 파일입니다. 사이트를 만들 때 marimo가 시뮬레이터를 브라우저용 HTML로 내보내고 MkDocs가 문서와 함께 제공합니다.
+[응용 미적분 문서](docs/mathematics/applied-calculus.md)와 [포물선 운동 문서](docs/mechanics/projectile-motion.md)는 수식 설명 아래에서 Python 시뮬레이터를 실행할 수 있습니다. 문서의 원본은 Markdown이고, 시뮬레이터의 원본은 [`simulations/`](simulations/)의 Python 파일입니다. 사이트를 만들 때 marimo가 시뮬레이터를 브라우저용 HTML로 내보내고 MkDocs가 문서와 함께 제공합니다.
 
 [시뮬레이터 동작 확인 페이지](docs/test.md)에서는 슬라이더와 계산값을 바로 점검할 수 있습니다.
 
@@ -284,6 +292,11 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 python -m unittest discover -s tests
 python -m marimo export html-wasm simulations/projectile_motion.py -o docs/simulations/projectile --mode run --no-show-code
+python -m marimo export html-wasm simulations/inverse_trig.py -o docs/simulations/inverse-trig --mode run --no-show-code
+python -m marimo export html-wasm simulations/instantaneous_velocity.py -o docs/simulations/instantaneous-velocity --mode run --no-show-code
+python -m marimo export html-wasm simulations/inverse_thrust.py -o docs/simulations/inverse-thrust --mode run --no-show-code
+python -m marimo export html-wasm simulations/implicit_circle.py -o docs/simulations/implicit-circle --mode run --no-show-code
+python -m marimo export html-wasm simulations/periodic_signal.py -o docs/simulations/periodic-signal --mode run --no-show-code
 python -m mkdocs serve
 ```
 

@@ -10,6 +10,8 @@ theme:
 nav:
   - 시작: index.md
   - 동작 확인: test.md
+  - 수학:
+      - 응용 미적분: mathematics/applied-calculus.md
   - 역학:
       - 포물선 운동: mechanics/projectile-motion.md
 exclude_docs: |
