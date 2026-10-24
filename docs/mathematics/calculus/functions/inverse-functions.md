@@ -50,3 +50,9 @@ y'=\frac{dy}{dx}=\frac{d}{dx}\arcsin x
 
 <p><a href="../../../../simulations/inverse-trig/index.html?v=calculus-1" target="_blank" rel="noopener">시뮬레이터 새 창에서 열기</a> · <a href="https://github.com/koosco/applied-science/blob/main/simulations/inverse_trig.py">Python 원본 코드</a></p>
 </details>
+
+## 문제 예시: 드론 기울기 추정 범위 확인
+
+드론이 거의 정지한 상태에서 중력 방향을 이용해 얻은 센서 비율을 $r=\sin\theta$로 모델링합니다. 기울기 $\theta$의 허용 범위가 $[-45^\circ,45^\circ]$일 때, $r=0.60$의 기울기를 구하고 $r=0.80$도 같은 허용 범위에서 설명할 수 있는지 판단해 보세요. 센서 축과 기체 좌표계가 맞고 다른 가속도의 영향은 무시합니다.
+
+**풀이.** 허용 각도에서는 사인 함수가 엄격히 증가하므로 각도를 유일하게 찾을 수 있습니다. $\arcsin(0.60)\approx0.644\,\mathrm{rad}\approx36.87^\circ$이고 허용 범위 안입니다. 반면 허용 범위에서 가능한 비율은 $[-\sin45^\circ,\sin45^\circ]=[-\sqrt2/2,\sqrt2/2]\approx[-0.707,0.707]$입니다. $0.80$은 이 치역 밖이므로 **이 범위와 모델을 동시에 만족하는 각도가 없습니다**. 자세 범위를 벗어났거나 가속도·보정 오차가 섞였는지 확인해야 합니다.

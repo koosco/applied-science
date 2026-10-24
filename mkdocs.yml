@@ -9,7 +9,6 @@ theme:
     - content.code.copy
 nav:
   - 시작: index.md
-  - 동작 확인: test.md
   - 수학:
       - 미적분:
           - 학습 목차: mathematics/calculus/index.md
