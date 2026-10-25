@@ -151,11 +151,13 @@ applied-science/
 │   │   └── calculus/
 │   │       ├── index.md
 │   │       ├── functions/
+│   │       │   ├── index.md
 │   │       │   ├── composition.md
 │   │       │   ├── inverse-functions.md
 │   │       │   ├── limits-and-continuity.md
 │   │       │   └── periodic-signals.md
 │   │       ├── differentiation/
+│   │       │   ├── index.md
 │   │       │   ├── derivatives-and-tangents.md
 │   │       │   ├── basic-rules.md
 │   │       │   ├── trajectory-derivatives.md

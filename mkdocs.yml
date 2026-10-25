@@ -13,11 +13,13 @@ nav:
       - 미적분:
           - 학습 목차: mathematics/calculus/index.md
           - 함수:
+              - 개요와 학습 순서: mathematics/calculus/functions/index.md
               - 합성함수: mathematics/calculus/functions/composition.md
               - 단사·전사와 역함수: mathematics/calculus/functions/inverse-functions.md
               - 함수의 극한과 연속: mathematics/calculus/functions/limits-and-continuity.md
               - 주기 함수와 신호 시스템: mathematics/calculus/functions/periodic-signals.md
           - 미분법:
+              - 개요와 학습 순서: mathematics/calculus/differentiation/index.md
               - 미분계수와 도함수: mathematics/calculus/differentiation/derivatives-and-tangents.md
               - 기본 미분법: mathematics/calculus/differentiation/basic-rules.md
               - 비행 궤적의 고계도함수: mathematics/calculus/differentiation/trajectory-derivatives.md
