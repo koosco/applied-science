@@ -43,6 +43,26 @@ F(x)=\frac12\left[x\sqrt{9-x^2}+9\arcsin\left(\frac x3\right)\right].
 
 따라서 $F(1\,\mathrm m)=\tfrac12[\sqrt8+9\arcsin(1/3)]\,\mathrm{m^2}\approx2.943\,\mathrm{m^2}$입니다. 결과의 단위는 $y\,dx$에 대응하는 m²이며, 미분하면 처음 경계식으로 돌아옵니다.
 
+## 문제 예시: 제곱근이 분모에 있는 형태
+
+$|x|<3$에서 다음 원시함수를 구하고 $G(0)=0$을 만족하도록 상수를 정한 뒤 $G(1)$을 구해 보세요. 첫 예시와 달리 $x^2$가 분자에 있어 치환 뒤에도 삼각함수의 제곱이 남습니다.
+
+\[
+G'(x)=\frac{x^2}{\sqrt{9-x^2}}.
+\]
+
+**풀이.** $x=3\sin\theta$, $\theta\in(-\pi/2,\pi/2)$로 두면 $dx=3\cos\theta\,d\theta$이고 $\sqrt{9-x^2}=3\cos\theta>0$입니다. 따라서
+
+\[
+\begin{aligned}
+G(x)&=9\int\sin^2\theta\,d\theta
+=\frac92\theta-\frac94\sin(2\theta)+C\\
+&=\frac92\arcsin\frac x3-\frac x2\sqrt{9-x^2}+C.
+\end{aligned}
+\]
+
+$G(0)=0$에서 $C=0$이고 $G(1)=\tfrac92\arcsin(1/3)-\tfrac12\sqrt8\approx0.115$입니다. 결과를 미분해 통분하면 $x^2/\sqrt{9-x^2}$로 돌아옵니다. 이 예제는 삼각치환의 부호와 역치환을 연습하기 위한 수학적 문제입니다.
+
 ## 참고 자료
 
 - [OpenStax Calculus Volume 2, Trigonometric Substitution](https://openstax.org/books/calculus-volume-2/pages/3-3-trigonometric-substitution)
