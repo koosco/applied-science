@@ -4,7 +4,7 @@
 
 ## 학습 문서
 
-- [미적분 학습 목차](mathematics/calculus/index.md): 함수와 미분법을 주제별 문서로 읽고, 필요한 그래프를 조작해 봅니다.
+- [미적분 학습 목차](mathematics/calculus/index.md): 함수·미분법·부정적분을 주제별로 읽고, 필요한 그래프를 조작해 봅니다.
 - [포물선 운동](mechanics/projectile-motion.md): 운동 방정식을 유도하고 초기 속도와 발사 각도가 궤적에 미치는 영향을 살펴봅니다.
 
 문서는 Markdown으로 작성합니다. 실행 가능한 시뮬레이터가 도움이 되는 주제에만 Python 예제를 연결합니다.

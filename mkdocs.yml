@@ -27,6 +27,14 @@ nav:
               - 로피탈의 정리: mathematics/calculus/differentiation/theorems/lhopital.md
               - 역함수의 미분법: mathematics/calculus/differentiation/inverse-function-derivatives.md
               - 음함수의 미분법: mathematics/calculus/differentiation/implicit-differentiation.md
+          - 부정적분:
+              - 개요와 계산 순서: mathematics/calculus/indefinite-integrals/index.md
+              - 기본 공식: mathematics/calculus/indefinite-integrals/basic-rules.md
+              - 합성함수와 치환적분: mathematics/calculus/indefinite-integrals/substitution.md
+              - 삼각함수 적분: mathematics/calculus/indefinite-integrals/trigonometric-integrals.md
+              - 부분적분: mathematics/calculus/indefinite-integrals/integration-by-parts.md
+              - 유리함수와 부분분수: mathematics/calculus/indefinite-integrals/partial-fractions.md
+              - 삼각치환: mathematics/calculus/indefinite-integrals/trigonometric-substitution.md
   - 역학:
       - 포물선 운동: mechanics/projectile-motion.md
 exclude_docs: |

@@ -37,7 +37,7 @@ Applied Science는 물리 시스템의 동작 원리를 이해하고,
 
 | 학습 항목 | 세부 주제 |
 | --- | --- |
-| [미적분학](docs/mathematics/calculus/) | [함수](docs/mathematics/calculus/functions/) · [미분법](docs/mathematics/calculus/differentiation/) · 향후 학습: 적분, 다변수 미적분, 편미분과 그래디언트, 테일러 전개 및 선형 근사 |
+| [미적분학](docs/mathematics/calculus/) | [함수](docs/mathematics/calculus/functions/) · [미분법](docs/mathematics/calculus/differentiation/) · [부정적분](docs/mathematics/calculus/indefinite-integrals/) · 향후 학습: 정적분, 다변수 미적분, 편미분과 그래디언트, 테일러 전개 및 선형 근사 |
 | [선형대수학](fundamentals/mathematics/linear-algebra/) | 벡터와 행렬, 좌표계와 좌표 변환, 고유값과 고유벡터 |
 | [미분방정식](fundamentals/mathematics/differential-equations/) | 일계 및 이계 미분방정식, 연립 미분방정식, 동적 시스템의 수학적 표현 |
 | [수치해석](fundamentals/mathematics/numerical-methods/) | 수치 미분과 적분, 수치적 미분방정식 풀이, 계산 오차와 수치적 안정성 |
@@ -155,17 +155,25 @@ applied-science/
 │   │       │   ├── inverse-functions.md
 │   │       │   ├── limits-and-continuity.md
 │   │       │   └── periodic-signals.md
-│   │       └── differentiation/
-│   │           ├── derivatives-and-tangents.md
+│   │       ├── differentiation/
+│   │       │   ├── derivatives-and-tangents.md
+│   │       │   ├── basic-rules.md
+│   │       │   ├── trajectory-derivatives.md
+│   │       │   ├── extrema.md
+│   │       │   ├── inverse-function-derivatives.md
+│   │       │   ├── implicit-differentiation.md
+│   │       │   └── theorems/
+│   │       │       ├── rolle.md
+│   │       │       ├── cauchy-mean-value.md
+│   │       │       └── lhopital.md
+│   │       └── indefinite-integrals/
+│   │           ├── index.md
 │   │           ├── basic-rules.md
-│   │           ├── trajectory-derivatives.md
-│   │           ├── extrema.md
-│   │           ├── inverse-function-derivatives.md
-│   │           ├── implicit-differentiation.md
-│   │           └── theorems/
-│   │               ├── rolle.md
-│   │               ├── cauchy-mean-value.md
-│   │               └── lhopital.md
+│   │           ├── substitution.md
+│   │           ├── trigonometric-integrals.md
+│   │           ├── integration-by-parts.md
+│   │           ├── partial-fractions.md
+│   │           └── trigonometric-substitution.md
 │   ├── mechanics/
 │   │   └── projectile-motion.md
 │   ├── javascripts/
@@ -299,7 +307,7 @@ Python을 기본적인 수치 계산 및 실험 언어로 사용합니다.
 
 ## 9. 문서 사이트와 시뮬레이터
 
-[미적분 학습 목차](docs/mathematics/calculus/index.md)에서 함수와 미분법의 주제별 문서를 찾을 수 있습니다. 시뮬레이션이 도움이 되는 문서와 [포물선 운동 문서](docs/mechanics/projectile-motion.md)에는 Python 시뮬레이터를 연결했습니다. 문서의 원본은 Markdown이고, 시뮬레이터의 원본은 [`simulations/`](simulations/)의 Python 파일입니다. 사이트를 만들 때 marimo가 시뮬레이터를 브라우저용 HTML로 내보내고 MkDocs가 문서와 함께 제공합니다.
+[미적분 학습 목차](docs/mathematics/calculus/index.md)에서 함수, 미분법, 부정적분의 주제별 문서를 찾을 수 있습니다. 시뮬레이션이 도움이 되는 문서와 [포물선 운동 문서](docs/mechanics/projectile-motion.md)에는 Python 시뮬레이터를 연결했습니다. 문서의 원본은 Markdown이고, 시뮬레이터의 원본은 [`simulations/`](simulations/)의 Python 파일입니다. 사이트를 만들 때 marimo가 시뮬레이터를 브라우저용 HTML로 내보내고 MkDocs가 문서와 함께 제공합니다.
 
 ### 로컬 실행
 
