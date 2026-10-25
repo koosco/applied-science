@@ -155,6 +155,8 @@ applied-science/
 │   │       │   ├── composition.md
 │   │       │   ├── inverse-functions.md
 │   │       │   ├── limits-and-continuity.md
+│   │       │   ├── intermediate-value-theorem.md
+│   │       │   ├── extreme-value-theorem.md
 │   │       │   └── periodic-signals.md
 │   │       ├── differentiation/
 │   │       │   ├── index.md

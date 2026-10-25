@@ -17,6 +17,8 @@ nav:
               - 합성함수: mathematics/calculus/functions/composition.md
               - 단사·전사와 역함수: mathematics/calculus/functions/inverse-functions.md
               - 함수의 극한과 연속: mathematics/calculus/functions/limits-and-continuity.md
+              - 중간값 정리: mathematics/calculus/functions/intermediate-value-theorem.md
+              - 최대·최소 정리: mathematics/calculus/functions/extreme-value-theorem.md
               - 주기 함수와 신호 시스템: mathematics/calculus/functions/periodic-signals.md
           - 미분법:
               - 개요와 학습 순서: mathematics/calculus/differentiation/index.md
