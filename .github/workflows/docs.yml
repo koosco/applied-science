@@ -27,6 +27,7 @@ jobs:
           python-version: '3.12'
       - run: python -m pip install -r requirements.txt
       - run: python -m unittest discover -s tests
+      - run: python scripts/validate_figures.py
       - run: python -m marimo check simulations/projectile_motion.py
       - run: python -m marimo export html-wasm simulations/projectile_motion.py -o docs/simulations/projectile --mode run --no-show-code
       - run: python -m marimo check simulations/inverse_trig.py simulations/instantaneous_velocity.py simulations/inverse_thrust.py simulations/implicit_circle.py simulations/periodic_signal.py simulations/rolle.py simulations/trajectory_derivatives.py

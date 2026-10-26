@@ -19,6 +19,7 @@
 | 저장소 목적·학습 분야 파악 | [README.md](README.md) |
 | 새 학습 분야 추가, 주제의 깊이 결정 | [docs/learning-scope.md](docs/learning-scope.md) |
 | 학습 문서 작성·수정, 수식 유도·설명 | [docs/convention/writing.md](docs/convention/writing.md) |
+| 학습 그래프·도식 추가/수정, SVG 파일 관리 | [docs/convention/figures.md](docs/convention/figures.md) |
 | 코드 작성·수정, 재사용 모듈 테스트 | [docs/convention/code.md](docs/convention/code.md) |
 | 실험·시뮬레이션 작성·수정, 수치 결과 검증 | [docs/convention/experiments.md](docs/convention/experiments.md) |
 | 새 파일·디렉터리 구성 또는 이름 결정 | [docs/convention/repository.md](docs/convention/repository.md) |

@@ -210,7 +210,7 @@ applied-science/
 위 구조는 주요 경로를 보여줍니다. 표에 연결된 빈 폴더는 `.gitkeep`으로 보존하며, 나머지 예시 디렉터리는 학습과 구현이 진행될 때 생성합니다.
 
 에이전트의 공통 원칙과 작업별 지침 경로는 [AGENTS.md](AGENTS.md)에 있습니다.
-세부 규칙은 해당 작업에 필요한 `docs/` 파일만 참고합니다.
+세부 규칙은 해당 작업에 필요한 `docs/` 파일만 참고합니다. 그래프·도식의 추가와 수정에는 [학습 시각자료 컨벤션](docs/convention/figures.md)을 적용합니다. 이미지 경로·SVG 구조를 검사하려면 저장소 루트에서 `python scripts/validate_figures.py`를 실행합니다.
 
 ### fundamentals/
 
@@ -322,6 +322,7 @@ python3.12 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
 python -m unittest discover -s tests
+python scripts/validate_figures.py
 python -m marimo export html-wasm simulations/projectile_motion.py -o docs/simulations/projectile --mode run --no-show-code
 python -m marimo export html-wasm simulations/inverse_trig.py -o docs/simulations/inverse-trig --mode run --no-show-code
 python -m marimo export html-wasm simulations/instantaneous_velocity.py -o docs/simulations/instantaneous-velocity --mode run --no-show-code

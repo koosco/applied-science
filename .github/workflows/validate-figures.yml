@@ -1,0 +1,19 @@
+name: Validate learning figures
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  figures:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/validate_figures.py
+      - run: python -m unittest discover -s tests -p 'test_figure_conventions.py'
