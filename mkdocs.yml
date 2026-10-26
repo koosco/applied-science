@@ -41,6 +41,13 @@ nav:
               - 삼각치환: mathematics/calculus/indefinite-integrals/trigonometric-substitution.md
           - 정적분:
               - 개요와 학습 순서: mathematics/calculus/definite-integrals/index.md
+              - 정적분과 리만 합: mathematics/calculus/definite-integrals/riemann-sums.md
+              - 미적분학의 기본정리: mathematics/calculus/definite-integrals/fundamental-theorem.md
+              - 정적분의 성질: mathematics/calculus/definite-integrals/properties-and-signed-area.md
+              - 정적분의 치환적분: mathematics/calculus/definite-integrals/substitution.md
+              - 정적분의 부분적분: mathematics/calculus/definite-integrals/integration-by-parts.md
+              - 물리량의 누적 계산: mathematics/calculus/definite-integrals/physical-applications.md
+              - 수치적분: mathematics/calculus/definite-integrals/numerical-integration.md
   - 역학:
       - 포물선 운동: mechanics/projectile-motion.md
 exclude_docs: |
