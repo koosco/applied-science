@@ -89,6 +89,10 @@ nav:
           - 기준 좌표계와 회전: mathematics/coordinate-systems/reference-frames.md
   - 역학:
       - 포물선 운동: mechanics/projectile-motion.md
+  - 회로 이론:
+      - 학습 개요: circuits/circuit-theory/index.md
+      - 회로 변수:
+          - 개요: circuits/circuit-theory/circuit-variables/index.md
 exclude_docs: |
   /convention/
   /learning-scope.md
