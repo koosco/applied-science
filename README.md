@@ -37,7 +37,7 @@ Applied Science는 물리 시스템의 동작 원리를 이해하고,
 
 | 학습 항목 | 세부 주제 |
 | --- | --- |
-| [미적분학](docs/mathematics/calculus/) | [함수](docs/mathematics/calculus/functions/) · [미분법](docs/mathematics/calculus/differentiation/) · [부정적분](docs/mathematics/calculus/indefinite-integrals/) · [정적분](docs/mathematics/calculus/definite-integrals/) · 향후 학습: 다변수 미적분, 편미분과 그래디언트, 테일러 전개 및 선형 근사 |
+| [미적분학](docs/mathematics/calculus/) | [함수](docs/mathematics/calculus/functions/) · [미분법](docs/mathematics/calculus/differentiation/) · [부정적분](docs/mathematics/calculus/indefinite-integrals/) · [정적분](docs/mathematics/calculus/definite-integrals/) · [근사·급수](docs/mathematics/calculus/approximations/) · [매개변수 곡선](docs/mathematics/calculus/parametric-curves/) · [다변수 미적분](docs/mathematics/calculus/multivariable/) · [벡터 미적분](docs/mathematics/calculus/vector-calculus/) |
 | [벡터와 좌표계](docs/mathematics/coordinate-systems/) | [벡터 성분](docs/mathematics/coordinate-systems/vectors-and-components.md) · [직교좌표](docs/mathematics/coordinate-systems/cartesian-plane.md) · [극좌표](docs/mathematics/coordinate-systems/polar-coordinates.md) · [좌표 변환](docs/mathematics/coordinate-systems/coordinate-conversion.md) · 3차원 기준 좌표계·회전 입문 |
 | [선형대수학](fundamentals/mathematics/linear-algebra/) | 벡터와 행렬, 좌표계와 좌표 변환, 고유값과 고유벡터 |
 | [미분방정식](fundamentals/mathematics/differential-equations/) | 일계 및 이계 미분방정식, 연립 미분방정식, 동적 시스템의 수학적 표현 |

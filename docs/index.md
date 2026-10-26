@@ -4,7 +4,7 @@
 
 ## 학습 문서
 
-- [미적분 학습 목차](mathematics/calculus/index.md): 함수·미분법·부정적분·정적분의 학습 문서와 그래프를 확인합니다.
+- [미적분 학습 목차](mathematics/calculus/index.md): 함수·미분·적분에서 테일러 근사, 매개변수 곡선, 다변수·벡터 미적분까지 주제별 학습을 이어갑니다.
 - [벡터와 좌표계](mathematics/coordinate-systems/index.md): 직교·극좌표 변환에서 3차원 좌표와 회전의 기초까지 순차적으로 학습합니다.
 - [포물선 운동](mechanics/projectile-motion.md): 운동 방정식을 유도하고 초기 속도와 발사 각도가 궤적에 미치는 영향을 살펴봅니다.
 

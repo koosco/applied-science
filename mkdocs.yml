@@ -48,6 +48,36 @@ nav:
               - 정적분의 부분적분: mathematics/calculus/definite-integrals/integration-by-parts.md
               - 물리량의 누적 계산: mathematics/calculus/definite-integrals/physical-applications.md
               - 수치적분: mathematics/calculus/definite-integrals/numerical-integration.md
+          - 근사·급수:
+              - 개요와 학습 순서: mathematics/calculus/approximations/index.md
+              - 선형 근사와 미분: mathematics/calculus/approximations/linear-approximation.md
+              - 수열과 무한급수: mathematics/calculus/approximations/sequences-and-series.md
+              - 테일러·매클로린 다항식: mathematics/calculus/approximations/taylor-polynomials.md
+              - 테일러 오차: mathematics/calculus/approximations/taylor-remainder.md
+          - 매개변수 곡선:
+              - 개요와 학습 순서: mathematics/calculus/parametric-curves/index.md
+              - 매개변수 곡선 미분: mathematics/calculus/parametric-curves/parametric-derivatives.md
+              - 호의 길이: mathematics/calculus/parametric-curves/arc-length.md
+              - 극좌표 곡선 넓이: mathematics/calculus/parametric-curves/polar-curves-and-area.md
+          - 다변수 미적분:
+              - 개요와 학습 순서: mathematics/calculus/multivariable/index.md
+              - 다변수 함수와 등고선: mathematics/calculus/multivariable/functions-and-level-sets.md
+              - 편미분: mathematics/calculus/multivariable/partial-derivatives.md
+              - 그래디언트와 방향도함수: mathematics/calculus/multivariable/gradient-and-directional-derivatives.md
+              - 다변수 연쇄법칙: mathematics/calculus/multivariable/multivariable-chain-rule.md
+              - 접평면과 선형화: mathematics/calculus/multivariable/tangent-plane-linearization.md
+              - 야코비안 행렬: mathematics/calculus/multivariable/jacobian-matrix.md
+              - 다변수 최적화: mathematics/calculus/multivariable/multivariable-optimization.md
+              - 이중적분: mathematics/calculus/multivariable/double-integrals.md
+              - 극좌표 이중적분: mathematics/calculus/multivariable/polar-double-integrals.md
+              - 삼중적분: mathematics/calculus/multivariable/triple-integrals.md
+          - 벡터 미적분:
+              - 개요와 학습 순서: mathematics/calculus/vector-calculus/index.md
+              - 벡터장: mathematics/calculus/vector-calculus/vector-fields.md
+              - 선적분과 일: mathematics/calculus/vector-calculus/line-integrals.md
+              - 보존장과 퍼텐셜: mathematics/calculus/vector-calculus/conservative-fields.md
+              - 발산과 회전: mathematics/calculus/vector-calculus/divergence-and-curl.md
+              - 유량과 적분정리: mathematics/calculus/vector-calculus/flux-and-theorems.md
       - 벡터와 좌표계:
           - 개요와 학습 순서: mathematics/coordinate-systems/index.md
           - 벡터와 성분 분해: mathematics/coordinate-systems/vectors-and-components.md
