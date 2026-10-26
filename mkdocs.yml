@@ -48,6 +48,15 @@ nav:
               - 정적분의 부분적분: mathematics/calculus/definite-integrals/integration-by-parts.md
               - 물리량의 누적 계산: mathematics/calculus/definite-integrals/physical-applications.md
               - 수치적분: mathematics/calculus/definite-integrals/numerical-integration.md
+      - 벡터와 좌표계:
+          - 개요와 학습 순서: mathematics/coordinate-systems/index.md
+          - 벡터와 성분 분해: mathematics/coordinate-systems/vectors-and-components.md
+          - 2차원 직교좌표계: mathematics/coordinate-systems/cartesian-plane.md
+          - 극좌표계: mathematics/coordinate-systems/polar-coordinates.md
+          - 직교·극좌표 변환: mathematics/coordinate-systems/coordinate-conversion.md
+          - 극좌표에서의 운동: mathematics/coordinate-systems/polar-motion.md
+          - 3차원 직교좌표계: mathematics/coordinate-systems/cartesian-3d.md
+          - 기준 좌표계와 회전: mathematics/coordinate-systems/reference-frames.md
   - 역학:
       - 포물선 운동: mechanics/projectile-motion.md
 exclude_docs: |
