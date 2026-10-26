@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="530" viewBox="0 0 640 530" role="img" aria-labelledby="mag-title mag-desc">
+  <title id="mag-title">전류 변화가 자기장을 통해 다른 코일에 전압을 유도하는 과정</title>
+  <desc id="mag-desc">전선으로 직접 연결하지 않은 코일 A와 B의 구조 개념도이다. 코일 A의 전류 변화로 코일 B를 통과하는 자기장의 양이 변하면 B의 열린 단자 사이에 전압이 유도될 수 있다. 초록색 점선은 자기적 연결을 나타내는 영역으로 전선이나 전자 이동 경로가 아니다.</desc>
+  <defs><marker id="mag-arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8Z" fill="#16756b"/></marker></defs>
+  <rect x="1" y="1" width="638" height="528" rx="18" fill="#fff" stroke="#cbd5e1"/>
+  <g font-family="sans-serif" fill="#182b45">
+    <text x="28" y="43" font-size="27" font-weight="700">전선 연결 없이 전달되는 자기적 영향</text>
+    <text x="28" y="78" font-size="20">코일의 배치와 감긴 모양을 단순화한 구성도</text>
+    <rect x="80" y="120" width="480" height="180" rx="85" fill="#edf9f5" stroke="#16756b" stroke-width="2" stroke-dasharray="7 6"/>
+    <g fill="none" stroke="#b36828" stroke-width="4">
+      <path d="M72 300 V210 H110 M230 210 H258 V300"/>
+      <ellipse cx="120" cy="210" rx="15" ry="54"/><ellipse cx="145" cy="210" rx="15" ry="54"/><ellipse cx="170" cy="210" rx="15" ry="54"/><ellipse cx="195" cy="210" rx="15" ry="54"/><ellipse cx="220" cy="210" rx="15" ry="54"/>
+      <path d="M382 300 V210 H408 M528 210 H565 V300"/>
+      <ellipse cx="420" cy="210" rx="15" ry="54"/><ellipse cx="445" cy="210" rx="15" ry="54"/><ellipse cx="470" cy="210" rx="15" ry="54"/><ellipse cx="495" cy="210" rx="15" ry="54"/><ellipse cx="520" cy="210" rx="15" ry="54"/>
+    </g>
+    <g fill="#fff" stroke="#334155" stroke-width="2"><circle cx="72" cy="304" r="5"/><circle cx="258" cy="304" r="5"/><circle cx="382" cy="304" r="5"/><circle cx="565" cy="304" r="5"/></g>
+    <text x="170" y="112" text-anchor="middle" font-size="23" font-weight="700">코일 A</text>
+    <text x="470" y="112" text-anchor="middle" font-size="23" font-weight="700">코일 B</text>
+    <text x="320" y="283" text-anchor="middle" font-size="18" fill="#16756b">자기장으로 연결</text>
+    <text x="165" y="339" text-anchor="middle" font-size="20">전류를 변화시킴</text>
+    <text x="474" y="339" text-anchor="middle" font-size="20">열린 두 단자</text>
+    <path d="M55 381 H585" stroke="#16756b" stroke-width="2.5" marker-end="url(#mag-arrow)"/>
+    <g font-size="20" text-anchor="middle"><text x="105" y="418">A의 전류 변화</text><text x="320" y="418">B를 통과하는</text><text x="320" y="446">자기장의 양 변화</text><text x="540" y="418">B에 전압 유도</text></g>
+    <text x="320" y="494" text-anchor="middle" font-size="19">B의 경로가 열려 있어도 전압은 유도될 수 있습니다.</text>
+  </g>
+</svg>

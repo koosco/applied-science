@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="680" viewBox="0 0 640 680" role="img" aria-labelledby="atom-title atom-desc">
+  <title id="atom-title">원자는 개별 입자, 원소는 양성자 수로 구분하는 종류</title>
+  <desc id="atom-desc">중성 헬륨-4 원자 하나의 구성은 원자핵 안의 양성자 두 개와 중성자 두 개, 주변의 전자 두 개이다. 수소, 헬륨, 탄소는 각각 양성자 수 1, 2, 6으로 구분한다. 전자 점은 개수 표시이며 궤도나 실제 위치와 크기를 나타내지 않는다.</desc>
+  <defs><radialGradient id="electron-cloud"><stop stop-color="#c7ddf9" stop-opacity="0.7"/><stop offset="0.65" stop-color="#e0ecfc" stop-opacity="0.7"/><stop offset="1" stop-color="#f7faff" stop-opacity="0"/></radialGradient></defs>
+  <rect x="1" y="1" width="638" height="678" rx="18" fill="#fff" stroke="#cbd5e1"/>
+  <g font-family="sans-serif" fill="#182b45">
+    <text x="28" y="43" font-size="27" font-weight="700">원자 하나의 구성과 원소의 종류</text>
+    <text x="28" y="78" font-size="20">예: 전기적으로 중성인 헬륨-4 원자</text>
+    <circle cx="235" cy="248" r="155" fill="url(#electron-cloud)"/>
+    <circle cx="235" cy="248" r="57" fill="#fff" stroke="#94a3b8" stroke-width="2"/>
+    <circle cx="216" cy="230" r="20" fill="#b94435"/>
+    <circle cx="254" cy="266" r="20" fill="#b94435"/>
+    <circle cx="254" cy="230" r="18" fill="#64748b"/>
+    <circle cx="216" cy="266" r="18" fill="#64748b"/>
+    <g fill="#fff" font-size="23" text-anchor="middle"><text x="216" y="238">+</text><text x="254" y="274">+</text><text x="254" y="238">0</text><text x="216" y="274">0</text></g>
+    <g fill="#2063b1" stroke="#fff" stroke-width="2"><circle cx="125" cy="174" r="20"/><circle cx="310" cy="342" r="20"/></g>
+    <g fill="#fff" font-size="26" text-anchor="middle"><text x="125" y="182">−</text><text x="310" y="350">−</text></g>
+    <path d="M 294 248 H 390 M 145 174 H 390 M 330 342 H 390" fill="none" stroke="#64748b" stroke-width="2"/>
+    <text x="405" y="180" font-size="22" fill="#2063b1">전자  −e</text>
+    <text x="405" y="244" font-size="22" font-weight="700">원자핵</text>
+    <text x="405" y="277" font-size="20">양성자 2개</text>
+    <text x="405" y="306" font-size="20">중성자 2개</text>
+    <text x="405" y="350" font-size="22" fill="#2063b1">전자  −e</text>
+    <text x="28" y="419" font-size="19" fill="#52647b">구성도입니다. 실제 크기·전자 위치·궤도가 아닙니다.</text>
+    <path d="M 28 443 H 612" stroke="#cbd5e1"/>
+    <text x="28" y="480" font-size="23" font-weight="700">원소는 원자핵의 양성자 수로 구분합니다.</text>
+    <g text-anchor="middle">
+      <rect x="28" y="505" width="180" height="114" rx="12" fill="#eff6ff"/>
+      <rect x="230" y="505" width="180" height="114" rx="12" fill="#f0fdfa"/>
+      <rect x="432" y="505" width="180" height="114" rx="12" fill="#fff7ed"/>
+      <text x="118" y="547" font-size="26" font-weight="700">수소 H</text>
+      <text x="320" y="547" font-size="26" font-weight="700">헬륨 He</text>
+      <text x="522" y="547" font-size="26" font-weight="700">탄소 C</text>
+      <text x="118" y="586" font-size="21">양성자 1개</text>
+      <text x="320" y="586" font-size="21">양성자 2개</text>
+      <text x="522" y="586" font-size="21">양성자 6개</text>
+    </g>
+    <text x="28" y="653" font-size="20">전자를 잃거나 얻어도 원소의 종류는 유지됩니다.</text>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="580" viewBox="0 0 640 580" role="img" aria-labelledby="wave-title wave-desc">
+  <title id="wave-title">한 파장과 회로 길이의 비교는 한 주기와 전달 시간의 비교</title>
+  <desc id="wave-desc">60헤르츠, 최대 크기 1볼트인 가상 진행파의 개념도이다. 전파 속도는 빛의 속도로 가정한다. 가로축은 위치 킬로미터, 세로축은 전압 볼트이다. 한 파장은 한 주기에 진행하는 거리이며, 아래 길이 막대와 시간 막대에서 각각 10분의 1이 같은 비율임을 보여준다. L/람다와 전달 시간/주기는 같다.</desc>
+  <defs><marker id="wave-arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto-start-reverse"><path d="M0 0 L7 3 L0 6Z" fill="#52647b"/></marker></defs>
+  <rect x="1" y="1" width="638" height="578" rx="18" fill="#fff" stroke="#cbd5e1"/>
+  <g font-family="sans-serif" fill="#182b45">
+    <text x="28" y="43" font-size="27" font-weight="700">파장에 비해 짧으면 전달 시간도 짧다</text>
+    <text x="28" y="78" font-size="20">60 Hz 가상 신호 · 전파 속도는 빛의 속도로 가정</text>
+    <text x="28" y="113" font-size="18">전압 (V)</text>
+    <path d="M70 245 H580 M70 337 V130" fill="none" stroke="#52647b" stroke-width="2" marker-end="url(#wave-arrow)"/>
+    <path d="M70 160 H560 M70 330 H560" stroke="#e2e8f0" stroke-dasharray="4 4"/>
+    <g font-size="18" text-anchor="end"><text x="59" y="166">1</text><text x="59" y="251">0</text><text x="59" y="336">−1</text></g>
+    <path d="M70 245 C110.833 200.494 151.667 160 192.5 160 C233.333 160 274.167 200.494 315 245 C355.833 289.506 396.667 330 437.5 330 C478.333 330 519.167 289.506 560 245" fill="none" stroke="#2063b1" stroke-width="3.5"/>
+    <g font-size="18" text-anchor="middle"><text x="70" y="365">0</text><text x="315" y="365">2,500</text><text x="560" y="365">5,000</text></g>
+    <text x="600" y="392" text-anchor="end" font-size="18">위치 (km)</text>
+    <path d="M70 126 H560" stroke="#52647b" stroke-width="1.7" marker-start="url(#wave-arrow)" marker-end="url(#wave-arrow)"/>
+    <rect x="235" y="110" width="160" height="28" fill="#fff"/>
+    <text x="315" y="132" text-anchor="middle" font-size="20">λ = 5,000 km</text>
+    <rect x="70" y="417" width="490" height="26" rx="3" fill="#e2e8f0"/><rect x="70" y="417" width="49" height="26" rx="3" fill="#16756b"/>
+    <text x="70" y="408" font-size="18" fill="#16756b">회로 길이 L = 500 km</text>
+    <text x="572" y="438" font-size="20">λ</text>
+    <rect x="70" y="478" width="490" height="26" rx="3" fill="#e2e8f0"/><rect x="70" y="478" width="49" height="26" rx="3" fill="#b36828"/>
+    <text x="70" y="469" font-size="18" fill="#9b551e">전달 시간 = 약 1.67 ms</text>
+    <text x="572" y="499" font-size="20">T</text>
+    <text x="320" y="548" text-anchor="middle" font-size="23" font-weight="700">L / λ = 전달 시간 / 주기</text>
+  </g>
+</svg>
