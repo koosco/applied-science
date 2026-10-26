@@ -74,7 +74,7 @@ Applied Science는 물리 시스템의 동작 원리를 이해하고,
 
 | 학습 항목 | 세부 주제 |
 | --- | --- |
-| [회로이론](fundamentals/circuits/circuit-theory/) | 옴의 법칙, 키르히호프 법칙, 저항·커패시터·인덕터, RC·RL·RLC 회로, 과도응답 및 정상상태 |
+| [회로이론](docs/circuits/circuit-theory/index.md) | 회로 변수와 모델의 가정, 옴의 법칙, 키르히호프 법칙, 저항·커패시터·인덕터, RC·RL·RLC 회로, 과도응답 및 정상상태 |
 | [전력 시스템](fundamentals/circuits/power-systems/) | 전력과 에너지, 전력 손실과 효율, 배터리의 전기적 특성, 전압 및 전류 변환 |
 | [전기 구동](fundamentals/circuits/electric-drives/) | 전동기의 동작 원리, BLDC 모터, PWM, 모터 드라이버 및 ESC, 속도와 토크 제어 |
 
