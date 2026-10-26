@@ -2,6 +2,12 @@
 
 드론의 위치 하나만 보면 다음 순간의 움직임을 알기 어렵습니다. 위치의 시간 변화율은 속도, 속도의 변화율은 가속도, 가속도의 변화율은 **저크(jerk)**입니다. PX4의 [멀티콥터 제어 구조](https://docs.px4.io/main/en/flight_stack/controller_diagrams)는 위치·속도·가속도 목표값을 사용하며, [저크 제한 궤적](https://docs.px4.io/main/en/config_mc/mc_jerk_limited_type_trajectory)으로 급격한 가속도 변화를 제한합니다.
 
+## 그래프로 이해하기
+
+![정규화된 5차 궤적에서 위치 속도 가속도가 시간에 따라 서로 다르게 변하는 세 그래프](../../../assets/figures/calculus/differentiation/trajectory-derivative-profiles.svg)
+
+*본문의 5차 궤적을 D=1, T=1로 정규화했습니다. 중간에서 가속도가 0이어도 속도는 최대이며, 정지한 것이 아닙니다.*
+
 ## 한 축에서 여러 번 미분하기
 
 한 축의 위치 $s(t)$가 세 번 미분 가능하면

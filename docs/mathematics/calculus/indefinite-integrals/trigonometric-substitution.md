@@ -2,6 +2,12 @@
 
 제곱근 안에 $a^2-x^2$ 같은 이차식이 있으면 삼각함수 항등식으로 제곱근을 없앨 수 있습니다. **삼각치환(trigonometric substitution)**은 [일반 치환적분](substitution.md)의 한 종류이지만, 치환하는 각도의 범위를 정해 제곱근의 부호까지 맞추는 점이 중요합니다.
 
+## 그래프로 이해하기
+
+![빗변 3, 높이 x, 밑변 sqrt(9−x²)인 직각삼각형에서 x=3sinθ 치환을 나타낸 도식](../../../assets/figures/calculus/indefinite-integrals/trig-substitution-triangle.svg)
+
+*본문의 √(9−x²)는 x=3sinθ로 치환하면 3cosθ가 됩니다. 그림은 x≥0인 경우이며, cosθ가 음수가 아닌 각도 범위를 선택해 제곱근의 부호를 결정합니다.*
+
 ## 어떤 식에 어떤 치환을 쓰는가
 
 $a>0$일 때 대표적인 선택은 다음과 같습니다.

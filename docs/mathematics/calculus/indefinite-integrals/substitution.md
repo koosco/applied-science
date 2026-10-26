@@ -2,6 +2,12 @@
 
 적분할 함수에 $g(x)$가 들어 있고 그 바깥에 $g'(x)$가 곱해져 있다면 [연쇄법칙](../differentiation/basic-rules.md#chain-rule)을 거꾸로 읽습니다. 이것이 **치환적분($u$-substitution)**의 핵심입니다.
 
+## 그래프로 이해하기
+
+![t를 u=0.3t²로 치환하면 sin(u)의 미분이 0.6t cos(0.3t²)로 이어지는 도식](../../../assets/figures/calculus/indefinite-integrals/substitution-chain.svg)
+
+*본문의 각속도 계획 중 0.6t cos(0.3t²)는 sin(0.3t²)을 미분한 결과입니다. 치환적분은 이를 거꾸로 찾습니다.*
+
 ## 왜 치환할 수 있는가
 
 $F'=f$이고 $g$가 미분 가능하면

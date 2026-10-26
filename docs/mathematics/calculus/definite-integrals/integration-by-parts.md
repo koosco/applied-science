@@ -3,6 +3,12 @@
 > 정적분 5/7 · 권장 학습 시간: 25~35분  
 > 선수 지식: [미분의 곱셈법칙](../differentiation/basic-rules.md), [부정적분의 부분적분](../indefinite-integrals/integration-by-parts.md)
 
+## 그래프로 이해하기
+
+![함수 f(x)=x exp(x)의 0에서1까지 양의 면적이 1임을 나타낸 그래프](../../../assets/figures/calculus/definite-integrals/by-parts-exponential-area.svg)
+
+*본문의 정적분 ∫₀¹xeˣdx는 부분적분으로 1입니다. 경계항 [xeˣ]₀¹=e와 남는 적분 e−1의 차를 계산합니다.*
+
 ## 두 함수의 곱을 적분해야 한다면?
 
 두 함수가 곱해져 있고, 한쪽을 미분하면 간단해지고 다른 쪽은 적분하기 쉽다면 **부분적분(Integration by Parts)**을 고려합니다. 미분의 곱셈법칙

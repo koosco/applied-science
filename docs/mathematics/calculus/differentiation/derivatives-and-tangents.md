@@ -30,6 +30,12 @@ $t=5\,\mathrm s$에서 높이는 $s(5)=27.5\,\mathrm m$, 순간속도는 $s'(5)=
 <p><a href="../../../../simulations/instantaneous-velocity/index.html?v=calculus-1" target="_blank" rel="noopener">시뮬레이터 새 창에서 열기</a> · <a href="https://github.com/koosco/applied-science/blob/main/simulations/instantaneous_velocity.py">Python 원본 코드</a></p>
 </details>
 
+## 그래프로 이해하기
+
+![가상 드론 고도 h(t)=12-3t+0.2t²와 t=2에서의 접선 h_tan(t)=6.8−2.2(t−2) 비교 그래프](../../../assets/figures/calculus/differentiation/tangent-local-approximation.svg)
+
+*본문 예제처럼 t=2초의 도함수 −2.2m/s는 접선의 기울기입니다. 접선은 가까운 시점의 높이를 근사합니다.*
+
 ## 접선과 법선의 방정식
 
 평면에서 $y=f(x)$의 $(a,f(a))$에서 접선 기울기가 $m=f'(a)$이면 접선은 $y-f(a)=m(x-a)$입니다. 이에 수직인 **법선**은 $m\ne0$일 때 $y-f(a)=-\frac1m(x-a)$입니다. $m=0$이면 법선은 수직선 $x=a$입니다. 접선 방향 벡터 $(1,m)$과 법선 방향 벡터 $(-m,1)$의 내적은 $-m+m=0$이므로 두 방향이 수직입니다.

@@ -12,3 +12,10 @@
 | 응용 | [주기 함수와 신호 시스템](periodic-signals.md) | 반복되는 진동에서 주파수·진폭·위상을 어떻게 읽는가? |
 
 합성함수와 극한은 [미분법](../differentiation/index.md)의 바탕이 됩니다. 역함수는 센서 출력에서 입력을 추정하거나 [역함수의 도함수](../differentiation/inverse-function-derivatives.md)를 이해할 때 다시 사용합니다. 주기 함수 문서는 신호의 반복 특성을 다루는 응용 사례입니다.
+
+
+## 그래프로 이해하기
+
+![함수 단원의 합성함수, 역함수, 극한과 연속, 주기함수 학습 흐름도](../../../assets/figures/calculus/functions/learning-sequence.svg)
+
+*함수의 표현과 대응 관계를 이해한 뒤 극한·연속과 주기적인 변화를 살펴봅니다.*

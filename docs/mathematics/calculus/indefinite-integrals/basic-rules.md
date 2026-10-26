@@ -2,6 +2,12 @@
 
 [도함수 공식](../differentiation/basic-rules.md)을 거꾸로 읽으면 기본적인 원시함수를 구할 수 있습니다. 식을 적분한 뒤 미분해 검산하는 습관은 적분상수와 계수의 누락을 막는 가장 직접적인 방법입니다.
 
+## 그래프로 이해하기
+
+![다항식 f(x)=x²와 그 원시함수 F(x)=x³/3의 그래프 비교](../../../assets/figures/calculus/indefinite-integrals/power-rule-inverse.svg)
+
+*거듭제곱 적분의 기본 예시입니다. F(x)=x³/3을 미분하면 f(x)=x²로 돌아오는지 확인해 보세요.*
+
 ## 선형성과 거듭제곱
 
 $F'=f$, $G'=g$이고 $a,b$가 상수라면 $(aF+bG)'=af+bg$입니다. 그러므로
