@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="760" viewBox="0 0 640 760" role="img" aria-labelledby="circuit-title circuit-desc">
+  <title id="circuit-title">실제 부품의 연결을 이상적인 전압원과 저항으로 표현</title>
+  <desc id="circuit-desc">위쪽은 설명용 시제품 구성 그림으로 5볼트 전원 장치와 1000옴 저항이 두 전선으로 연결된다. 아래쪽은 5볼트 이상적인 전압원과 1000옴 저항으로 만든 닫힌 회로이다. 저항에는 위쪽 플러스 아래쪽 마이너스 전압 표시가 있으며 전류는 시계 방향 5밀리암페어, 금속 도선에서 전자의 평균 이동은 그 반대 방향이다. 실제 제작이나 측정 사진이 아니다.</desc>
+  <defs><marker id="current-arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0 L7 3 L0 6Z" fill="#2063b1"/></marker><marker id="electron-arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0 L7 3 L0 6Z" fill="#8050a2"/></marker></defs>
+  <rect x="1" y="1" width="638" height="758" rx="18" fill="#fff" stroke="#cbd5e1"/>
+  <g font-family="sans-serif" fill="#182b45">
+    <text x="28" y="43" font-size="27" font-weight="700">실제 부품을 이상적인 소자로 표현하기</text>
+    <text x="28" y="79" font-size="20">시제품 구성 예시 · 실제 제작·측정 사진은 아님</text>
+    <path d="M234 175 H300 V119 H450 V175 M234 229 H300 V288 H450 V235" fill="none" stroke="#4b5563" stroke-width="5" stroke-linejoin="round"/>
+    <rect x="70" y="145" width="190" height="112" rx="13" fill="#edf2f7" stroke="#64748b" stroke-width="2"/>
+    <rect x="88" y="172" width="95" height="47" rx="4" fill="#182b45"/>
+    <text x="135" y="204" text-anchor="middle" font-size="23" fill="#fff">5 V</text>
+    <circle cx="222" cy="175" r="12" fill="#b94435"/><circle cx="222" cy="229" r="12" fill="#2063b1"/>
+    <text x="222" y="182" text-anchor="middle" font-size="20" fill="#fff">+</text><text x="222" y="236" text-anchor="middle" font-size="20" fill="#fff">−</text>
+    <rect x="433" y="175" width="34" height="60" rx="8" fill="#edd6ac" stroke="#9b6b34" stroke-width="2"/>
+    <text x="493" y="210" font-size="21">1,000 Ω</text>
+    <text x="165" y="282" text-anchor="middle" font-size="19">전원 장치</text>
+    <text x="525" y="265" text-anchor="middle" font-size="19">저항 부품</text>
+    <path d="M28 326 H612" stroke="#cbd5e1"/>
+    <text x="28" y="365" font-size="24" font-weight="700">회로도: 전압과 전류의 관계를 남긴 모델</text>
+    <path d="M140 472 V427 H450 V482 M450 570 V619 H140 V562" fill="none" stroke="#334155" stroke-width="4" stroke-linejoin="round"/>
+    <circle cx="140" cy="517" r="45" fill="#f8fafc" stroke="#334155" stroke-width="3"/>
+    <text x="140" y="506" text-anchor="middle" font-size="29">+</text><text x="140" y="548" text-anchor="middle" font-size="29">−</text>
+    <rect x="432" y="482" width="36" height="88" fill="#fff7ed" stroke="#334155" stroke-width="3"/>
+    <text x="69" y="524" font-size="23" text-anchor="middle">5 V</text>
+    <text x="495" y="532" font-size="23">1,000 Ω</text>
+    <text x="405" y="486" font-size="26">+</text><text x="405" y="578" font-size="26">−</text><text x="385" y="535" font-size="21">5 V</text>
+    <path d="M230 404 H370" stroke="#2063b1" stroke-width="3" marker-end="url(#current-arrow)"/>
+    <text x="300" y="394" text-anchor="middle" font-size="19" fill="#2063b1">전류 I = 5 mA</text>
+    <path d="M370 453 H230" stroke="#8050a2" stroke-width="2.5" stroke-dasharray="5 4" marker-end="url(#electron-arrow)"/>
+    <text x="300" y="482" text-anchor="middle" font-size="18" fill="#8050a2">전자의 평균 이동</text>
+    <text x="320" y="668" text-anchor="middle" font-size="24" font-weight="700">I = 5 V ÷ 1,000 Ω = 5 mA</text>
+    <text x="320" y="709" text-anchor="middle" font-size="19">전류의 기준 방향과 금속 속 전자의 이동은 반대입니다.</text>
+    <text x="320" y="738" text-anchor="middle" font-size="18" fill="#52647b">모델은 예측에, 실제 시제품은 측정과 비교에 사용합니다.</text>
+  </g>
+</svg>

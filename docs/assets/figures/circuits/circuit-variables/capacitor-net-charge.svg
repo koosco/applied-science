@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="500" viewBox="0 0 640 500" role="img" aria-labelledby="cap-title cap-desc">
+  <title id="cap-title">커패시터의 두 판에는 전하가 분리되지만 전체 순 전하는 0</title>
+  <desc id="cap-desc">왼쪽 판의 전하 플러스 Q와 오른쪽 판의 마이너스 Q를 합하면 0이다. 점선 경계는 두 판을 포함한 커패시터 전체를 뜻한다. 판 사이의 전기장 방향은 양전하 판에서 음전하 판으로 향하며 전자가 절연 부분을 통과한다는 뜻이 아니다.</desc>
+  <defs><marker id="cap-arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8Z" fill="#16756b"/></marker></defs>
+  <rect x="1" y="1" width="638" height="498" rx="18" fill="#fff" stroke="#cbd5e1"/>
+  <g font-family="sans-serif" fill="#182b45">
+    <text x="28" y="43" font-size="27" font-weight="700">부분의 전하와 전체의 순 전하</text>
+    <text x="28" y="78" font-size="20">두 판에 같은 크기, 반대 부호의 전하가 있습니다.</text>
+    <rect x="95" y="105" width="450" height="260" rx="18" fill="#f8fafc" stroke="#64748b" stroke-width="2" stroke-dasharray="8 6"/>
+    <text x="320" y="136" text-anchor="middle" font-size="20">커패시터 전체를 둘러싼 경계</text>
+    <path d="M45 250 H180 M460 250 H595" stroke="#334155" stroke-width="4"/>
+    <rect x="180" y="171" width="50" height="160" rx="6" fill="#fff0ec" stroke="#b94435" stroke-width="3"/>
+    <rect x="410" y="171" width="50" height="160" rx="6" fill="#eaf3ff" stroke="#2063b1" stroke-width="3"/>
+    <g font-size="31" text-anchor="middle" font-weight="700"><text x="205" y="205" fill="#b94435">+</text><text x="205" y="253" fill="#b94435">+</text><text x="205" y="301" fill="#b94435">+</text><text x="435" y="205" fill="#2063b1">−</text><text x="435" y="253" fill="#2063b1">−</text><text x="435" y="301" fill="#2063b1">−</text></g>
+    <g stroke="#16756b" stroke-width="2.5" marker-end="url(#cap-arrow)"><path d="M252 200 H385"/><path d="M252 245 H385"/><path d="M252 290 H385"/></g>
+    <text x="320" y="325" text-anchor="middle" fill="#16756b" font-size="19">전기장 방향</text>
+    <text x="205" y="397" text-anchor="middle" font-size="24" fill="#b94435">+Q</text>
+    <text x="435" y="397" text-anchor="middle" font-size="24" fill="#2063b1">−Q</text>
+    <text x="320" y="438" text-anchor="middle" font-size="26" font-weight="700">전체: (+Q) + (−Q) = 0</text>
+    <text x="320" y="475" text-anchor="middle" font-size="19">판 사이의 화살표는 전자의 이동 경로가 아닙니다.</text>
+  </g>
+</svg>
