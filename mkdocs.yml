@@ -39,6 +39,8 @@ nav:
               - 부분적분: mathematics/calculus/indefinite-integrals/integration-by-parts.md
               - 유리함수와 부분분수: mathematics/calculus/indefinite-integrals/partial-fractions.md
               - 삼각치환: mathematics/calculus/indefinite-integrals/trigonometric-substitution.md
+          - 정적분:
+              - 개요와 학습 순서: mathematics/calculus/definite-integrals/index.md
   - 역학:
       - 포물선 운동: mechanics/projectile-motion.md
 exclude_docs: |
