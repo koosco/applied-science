@@ -93,6 +93,7 @@ nav:
       - 학습 개요: circuits/circuit-theory/index.md
       - 회로 변수:
           - 개요: circuits/circuit-theory/circuit-variables/index.md
+          - 기준 방향과 전력: circuits/circuit-theory/circuit-variables/reference-directions-and-power.md
 exclude_docs: |
   /convention/
   /learning-scope.md
