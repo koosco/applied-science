@@ -3,6 +3,8 @@
 수학, 물리학, 전자공학 및 제어 시스템의 원리를 학습하고,
 수학적 분석과 프로그래밍 실험을 통해 이해하는 개인 지식 저장소입니다.
 
+문서 사이트: https://koosco.github.io/applied-science/
+
 ## 1. 소개
 
 Applied Science는 물리 시스템의 동작 원리를 이해하고,
@@ -31,87 +33,41 @@ Applied Science는 물리 시스템의 동작 원리를 이해하고,
 
 ## 3. 학습 분야
 
-### 3.1 수학 (Mathematics)
-
-물리 현상을 수학적으로 표현하고 시스템의 동작을 분석하기 위한 기초를 학습합니다.
-
-| 학습 항목 | 세부 주제 |
-| --- | --- |
-| [미적분학](docs/mathematics/calculus/) | [함수](docs/mathematics/calculus/functions/) · [미분법](docs/mathematics/calculus/differentiation/) · [부정적분](docs/mathematics/calculus/indefinite-integrals/) · [정적분](docs/mathematics/calculus/definite-integrals/) · [근사·급수](docs/mathematics/calculus/approximations/) · [매개변수 곡선](docs/mathematics/calculus/parametric-curves/) · [다변수 미적분](docs/mathematics/calculus/multivariable/) · [벡터 미적분](docs/mathematics/calculus/vector-calculus/) |
-| [벡터와 좌표계](docs/mathematics/coordinate-systems/) | [벡터 성분](docs/mathematics/coordinate-systems/vectors-and-components.md) · [직교좌표](docs/mathematics/coordinate-systems/cartesian-plane.md) · [극좌표](docs/mathematics/coordinate-systems/polar-coordinates.md) · [좌표 변환](docs/mathematics/coordinate-systems/coordinate-conversion.md) · 3차원 기준 좌표계·회전 입문 |
-| [선형대수학](fundamentals/mathematics/linear-algebra/) | 벡터와 행렬, 좌표계와 좌표 변환, 고유값과 고유벡터 |
-| [미분방정식](fundamentals/mathematics/differential-equations/) | 일계 및 이계 미분방정식, 연립 미분방정식, 동적 시스템의 수학적 표현 |
-| [수치해석](fundamentals/mathematics/numerical-methods/) | 수치 미분과 적분, 수치적 미분방정식 풀이, 계산 오차와 수치적 안정성 |
-
-### 3.2 역학 (Mechanics)
-
-물체의 운동과 힘 사이의 관계를 이해합니다.
-
-| 학습 항목 | 세부 주제 |
-| --- | --- |
-| [운동학 (Kinematics)](fundamentals/mechanics/kinematics/) | 위치·속도·가속도, 직선 운동과 곡선 운동, 각도·각속도·각가속도 |
-| [동역학 (Dynamics)](fundamentals/mechanics/dynamics/) | 뉴턴의 운동 법칙, 힘과 운동량, 일과 에너지, 토크와 회전 운동 |
-| [강체역학 (Rigid Body Mechanics)](fundamentals/mechanics/rigid-body-mechanics/) | 관성모멘트, 질량중심, 강체의 병진 및 회전 운동, 3차원 자세 표현 |
-| [유체 및 공기역학](fundamentals/mechanics/fluid-and-aerodynamics/) | 유체의 기본 성질, 압력과 유동, 양력과 항력, 추력과 운동의 관계 |
-
-### 3.3 전자기학 (Electromagnetism)
-
-전기 및 자기 현상의 기본 원리와 전자기적 에너지 변환을 학습합니다.
-
-| 학습 항목 |
-| --- |
-| [전하와 전기장](fundamentals/electromagnetism/electric-charge-and-field/) |
-| [전위와 전압](fundamentals/electromagnetism/electric-potential-and-voltage/) |
-| [전류와 전류밀도](fundamentals/electromagnetism/current-and-current-density/) |
-| [자기장과 자기력](fundamentals/electromagnetism/magnetic-field-and-force/) |
-| [전자기 유도](fundamentals/electromagnetism/electromagnetic-induction/) |
-| [인덕턴스](fundamentals/electromagnetism/inductance/) |
-| [전자기력과 회전 운동의 관계](fundamentals/electromagnetism/electromagnetic-force-and-rotation/) |
-
-### 3.4 회로 및 전력 시스템 (Circuits and Power Systems)
-
-전기 에너지의 전달, 변환 및 제어 원리를 학습합니다.
-
-| 학습 항목 | 세부 주제 |
-| --- | --- |
-| [회로이론](docs/circuits/circuit-theory/index.md) | 회로 변수와 모델의 가정, 옴의 법칙, 키르히호프 법칙, 저항·커패시터·인덕터, RC·RL·RLC 회로, 과도응답 및 정상상태 |
-| [전력 시스템](fundamentals/circuits/power-systems/) | 전력과 에너지, 전력 손실과 효율, 배터리의 전기적 특성, 전압 및 전류 변환 |
-| [전기 구동](fundamentals/circuits/electric-drives/) | 전동기의 동작 원리, BLDC 모터, PWM, 모터 드라이버 및 ESC, 속도와 토크 제어 |
-
-### 3.5 신호 및 제어 (Signals and Control)
-
-시간에 따라 변화하는 신호와 동적 시스템을 분석하고 제어하는 방법을 학습합니다.
-
-| 학습 항목 | 세부 주제 |
-| --- | --- |
-| [신호 및 시스템](fundamentals/signals-and-control/signals-and-systems/) | 연속시간 및 이산시간 신호, 샘플링, 주파수와 푸리에 해석, 필터링 |
-| [시스템 모델링](fundamentals/signals-and-control/system-modeling/) | 전달함수, 상태공간 모델, 선형화, 시스템 응답 |
-| [제어공학](fundamentals/signals-and-control/control-engineering/) | 개루프 및 폐루프 제어, 피드백 제어, PID 제어, 안정성, 응답 특성 및 제어기 설계 |
-
-### 3.6 센서 및 상태 추정 (Sensors and Estimation)
-
-물리량을 측정하고 불완전한 측정값으로부터 시스템의 상태를 추정하는 방법을 학습합니다.
-
-| 학습 항목 | 세부 주제 |
-| --- | --- |
-| [센서 및 계측](fundamentals/sensors-and-estimation/sensors-and-measurement/) | 가속도계, 자이로스코프, 자기계, 기압 센서, 위치 및 거리 측정, GNSS |
-| [데이터 처리](fundamentals/sensors-and-estimation/data-processing/) | 측정 오차와 노이즈, 센서 보정, 디지털 필터링, 샘플링과 시간 동기화 |
-| [상태 추정](fundamentals/sensors-and-estimation/state-estimation/) | 확률 및 통계 기초, 센서 융합, 칼만 필터, 위치·속도·자세 추정 |
-
-### 3.7 임베디드 시스템 (Embedded Systems)
-
-하드웨어와 소프트웨어가 상호작용하는 시스템의 구조를 학습합니다.
-
-| 학습 항목 |
-| --- |
-| [마이크로컨트롤러](fundamentals/embedded-systems/microcontrollers/) |
-| [메모리와 주변장치](fundamentals/embedded-systems/memory-and-peripherals/) |
-| [인터럽트와 타이머](fundamentals/embedded-systems/interrupts-and-timers/) |
-| [실시간 처리](fundamentals/embedded-systems/real-time-processing/) |
-| [하드웨어 인터페이스](fundamentals/embedded-systems/hardware-interfaces/) — GPIO, UART, I2C, SPI, CAN |
-| [장치 간 통신](fundamentals/embedded-systems/device-communication/) |
-| [데이터 수집 및 처리](fundamentals/embedded-systems/data-acquisition-and-processing/) |
-| [하드웨어와 소프트웨어 통합](fundamentals/embedded-systems/hardware-software-integration/) |
+| 분야 | 학습 항목 | 세부 주제 |
+| --- | --- | --- |
+| 수학 | [미적분학](docs/mathematics/calculus/) | [함수](docs/mathematics/calculus/functions/) · [미분법](docs/mathematics/calculus/differentiation/) · [부정적분](docs/mathematics/calculus/indefinite-integrals/) · [정적분](docs/mathematics/calculus/definite-integrals/) · [근사·급수](docs/mathematics/calculus/approximations/) · [매개변수 곡선](docs/mathematics/calculus/parametric-curves/) · [다변수 미적분](docs/mathematics/calculus/multivariable/) · [벡터 미적분](docs/mathematics/calculus/vector-calculus/) |
+|  | [벡터와 좌표계](docs/mathematics/coordinate-systems/) | [벡터 성분](docs/mathematics/coordinate-systems/vectors-and-components.md) · [직교좌표](docs/mathematics/coordinate-systems/cartesian-plane.md) · [극좌표](docs/mathematics/coordinate-systems/polar-coordinates.md) · [좌표 변환](docs/mathematics/coordinate-systems/coordinate-conversion.md) · 3차원 기준 좌표계·회전 입문 |
+|  | [선형대수학](fundamentals/mathematics/linear-algebra/) | 벡터와 행렬, 좌표계와 좌표 변환, 고유값과 고유벡터 |
+|  | [미분방정식](fundamentals/mathematics/differential-equations/) | 일계 및 이계 미분방정식, 연립 미분방정식, 동적 시스템의 수학적 표현 |
+|  | [수치해석](fundamentals/mathematics/numerical-methods/) | 수치 미분과 적분, 수치적 미분방정식 풀이, 계산 오차와 수치적 안정성 |
+| 역학 | [운동학 (Kinematics)](fundamentals/mechanics/kinematics/) | 위치·속도·가속도, 직선 운동과 곡선 운동, 각도·각속도·각가속도 |
+|  | [동역학 (Dynamics)](fundamentals/mechanics/dynamics/) | 뉴턴의 운동 법칙, 힘과 운동량, 일과 에너지, 토크와 회전 운동 |
+|  | [강체역학 (Rigid Body Mechanics)](fundamentals/mechanics/rigid-body-mechanics/) | 관성모멘트, 질량중심, 강체의 병진 및 회전 운동, 3차원 자세 표현 |
+|  | [유체 및 공기역학](fundamentals/mechanics/fluid-and-aerodynamics/) | 유체의 기본 성질, 압력과 유동, 양력과 항력, 추력과 운동의 관계 |
+| 전자기학 | [전하와 전기장](fundamentals/electromagnetism/electric-charge-and-field/) |  |
+|  | [전위와 전압](fundamentals/electromagnetism/electric-potential-and-voltage/) |  |
+|  | [전류와 전류밀도](fundamentals/electromagnetism/current-and-current-density/) |  |
+|  | [자기장과 자기력](fundamentals/electromagnetism/magnetic-field-and-force/) |  |
+|  | [전자기 유도](fundamentals/electromagnetism/electromagnetic-induction/) |  |
+|  | [인덕턴스](fundamentals/electromagnetism/inductance/) |  |
+|  | [전자기력과 회전 운동의 관계](fundamentals/electromagnetism/electromagnetic-force-and-rotation/) |  |
+| 회로 및 전력 시스템 | [회로이론](docs/circuits/circuit-theory/index.md) | 회로 변수와 모델의 가정, 옴의 법칙, 키르히호프 법칙, 저항·커패시터·인덕터, RC·RL·RLC 회로, 과도응답 및 정상상태 |
+|  | [전력 시스템](fundamentals/circuits/power-systems/) | 전력과 에너지, 전력 손실과 효율, 배터리의 전기적 특성, 전압 및 전류 변환 |
+|  | [전기 구동](fundamentals/circuits/electric-drives/) | 전동기의 동작 원리, BLDC 모터, PWM, 모터 드라이버 및 ESC, 속도와 토크 제어 |
+| 신호 및 제어 | [신호 및 시스템](fundamentals/signals-and-control/signals-and-systems/) | 연속시간 및 이산시간 신호, 샘플링, 주파수와 푸리에 해석, 필터링 |
+|  | [시스템 모델링](fundamentals/signals-and-control/system-modeling/) | 전달함수, 상태공간 모델, 선형화, 시스템 응답 |
+|  | [제어공학](fundamentals/signals-and-control/control-engineering/) | 개루프 및 폐루프 제어, 피드백 제어, PID 제어, 안정성, 응답 특성 및 제어기 설계 |
+| 센서 및 상태 추정 | [센서 및 계측](fundamentals/sensors-and-estimation/sensors-and-measurement/) | 가속도계, 자이로스코프, 자기계, 기압 센서, 위치 및 거리 측정, GNSS |
+|  | [데이터 처리](fundamentals/sensors-and-estimation/data-processing/) | 측정 오차와 노이즈, 센서 보정, 디지털 필터링, 샘플링과 시간 동기화 |
+|  | [상태 추정](fundamentals/sensors-and-estimation/state-estimation/) | 확률 및 통계 기초, 센서 융합, 칼만 필터, 위치·속도·자세 추정 |
+| 임베디드 시스템 | [마이크로컨트롤러](fundamentals/embedded-systems/microcontrollers/) |  |
+|  | [메모리와 주변장치](fundamentals/embedded-systems/memory-and-peripherals/) |  |
+|  | [인터럽트와 타이머](fundamentals/embedded-systems/interrupts-and-timers/) |  |
+|  | [실시간 처리](fundamentals/embedded-systems/real-time-processing/) |  |
+|  | [하드웨어 인터페이스](fundamentals/embedded-systems/hardware-interfaces/) | GPIO, UART, I2C, SPI, CAN |
+|  | [장치 간 통신](fundamentals/embedded-systems/device-communication/) |  |
+|  | [데이터 수집 및 처리](fundamentals/embedded-systems/data-acquisition-and-processing/) |  |
+|  | [하드웨어와 소프트웨어 통합](fundamentals/embedded-systems/hardware-software-integration/) |  |
 
 학습 범위는 실제 필요에 따라 확장하거나 세분화합니다.
 관련성이 낮은 주제는 단순한 지식 확장을 목적으로 추가하지 않습니다.
@@ -185,6 +141,7 @@ applied-science/
 │   ├── learning-scope.md
 │   └── convention/
 │       ├── writing.md
+│       ├── figures.md
 │       ├── code.md
 │       ├── experiments.md
 │       └── repository.md
@@ -278,39 +235,26 @@ applied-science/
 모든 개념에 구현이 필요한 것은 아닙니다.
 개념을 정확하게 이해하는 것을 우선합니다.
 
-## 6. 문서 작성 원칙
+## 6. 작성 규칙
 
-- 한국어를 기본으로 작성합니다.
-- 중요한 기술 용어는 영어 원문을 병기합니다.
-- 수학적 정의와 직관적인 설명을 구분합니다.
-- 공식의 유도 과정을 가능한 한 명확하게 설명합니다.
-- 변수와 물리량의 단위를 명시합니다.
-- 모델의 가정과 적용 범위를 설명합니다.
-- 이론적 결과와 실제 측정값을 구분합니다.
-- 필요한 경우 그래프와 예제를 사용합니다.
-- 외부 자료를 활용한 경우 출처를 기록합니다.
+문서, 코드, 실험의 세부 규칙은 [`docs/convention/`](docs/convention/)에 있습니다.
 
-## 7. 코드 및 실험 원칙
+| 작업 | 규칙 문서 |
+| --- | --- |
+| 학습 문서 작성, 수식 유도·설명 | [학습 문서 작성 규칙](docs/convention/writing.md) |
+| 그래프·도식 추가, SVG 관리 | [학습 시각자료 컨벤션](docs/convention/figures.md) |
+| 코드 작성, 재사용 모듈 테스트 | [코드 작성 규칙](docs/convention/code.md) |
+| 실험·시뮬레이션 작성, 수치 결과 검증 | [실험 및 시뮬레이션 규칙](docs/convention/experiments.md) |
+| 파일·디렉터리 구성과 이름 | [파일 및 디렉터리 규칙](docs/convention/repository.md) |
 
-- 정확성과 가독성을 우선합니다.
-- 재현 가능한 실험을 작성합니다.
-- 핵심 계산 과정을 명확하게 구현합니다.
-- 이론적 결과와 수치 계산 결과를 비교합니다.
-- 실험 코드와 재사용 모듈을 구분합니다.
-- 불필요한 추상화와 외부 의존성을 지양합니다.
-- 실행 환경과 실행 방법을 기록합니다.
-
-Python을 기본적인 수치 계산 및 실험 언어로 사용합니다.
-필요에 따라 다른 프로그래밍 언어와 도구를 활용합니다.
-
-## 8. 운영 원칙
+## 7. 운영 원칙
 
 이 저장소는 완성된 학습 자료가 아니라,
 학습 과정에서 얻은 지식과 실험 결과를 지속적으로 축적하는 공간입니다.
 
 개념의 정확성, 문서의 일관성, 실험의 재현성을 중요하게 생각합니다.
 
-## 9. 문서 사이트와 시뮬레이터
+## 8. 문서 사이트와 시뮬레이터
 
 [미적분 학습 목차](docs/mathematics/calculus/index.md)에서 함수, 미분법, 부정적분의 주제별 문서를 찾을 수 있습니다. 시뮬레이션이 도움이 되는 문서와 [포물선 운동 문서](docs/mechanics/projectile-motion.md)에는 Python 시뮬레이터를 연결했습니다. 문서의 원본은 Markdown이고, 시뮬레이터의 원본은 [`simulations/`](simulations/)의 Python 파일입니다. 사이트를 만들 때 marimo가 시뮬레이터를 브라우저용 HTML로 내보내고 MkDocs가 문서와 함께 제공합니다.
 
@@ -342,7 +286,3 @@ python -m mkdocs serve
 ### GitHub Pages
 
 `main` 브랜치에 푸시하면 [배포 워크플로](.github/workflows/docs.yml)가 테스트, 시뮬레이터 내보내기, 사이트 생성을 거쳐 GitHub Pages에 게시합니다. Pages 게시 소스는 **GitHub Actions**이며, 사이트 주소는 `https://koosco.github.io/applied-science/`입니다.
-
----
-
-**원리를 이해하고, 수학적으로 분석하며, 실험으로 검증합니다.**
